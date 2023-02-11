@@ -490,24 +490,31 @@ body::-webkit-scrollbar-thumb {
         /* display: block;
         margin: 0 auto; */
         margin-top: 5px;
-        width: 140px;
+        width: 160px;
         height: auto;
     }
     .catalog-tab{
-        display: flex;
+        position: fixed;
+		top: 80px;
+        left: auto;
+        right: auto;
+		width: 270px;
+		height: 100%;
+		background-color: #FFF;
+		border-radius: 10px;
+		display: flex;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		flex-direction: column;
+		justify-content: flex-start;
+		transition: all 1s ease;
+        /* display: flex;
         align-items: start;
         justify-content: space-around;
-        border-bottom: 1px solid #D9D9D9;
-    }
-    .head-title{
-        margin-top: 100px;
-        padding: 10px 0 0 15px;
-        font-size: 20px;
-		font-weight: 700;
+        border-bottom: 1px solid #D9D9D9; */
     }
     .tab-list{
-        margin: 100px 0 0 10px;
-        display: inline-flex;
+        margin: 10px 0 0 10px;
+        display: block;
         align-items: start;
         justify-content: start;
         overflow-x: auto;
@@ -533,7 +540,7 @@ body::-webkit-scrollbar-thumb {
         height: 35px;
         word-wrap: normal;
         margin: 5px 10px 5px 5px;
-        border: 1px solid #c6c6c6;
+        /* border: 1px solid #c6c6c6; */
         border-radius: 8px;
         background-color: #FFFFFF;
         transition: all .5s ease;
@@ -929,7 +936,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 20px 10px 0px 10px;
+        margin: 100px 10px 0px 10px;
         height: 185px;
         width: 95%;
         display: flex;
