@@ -913,8 +913,7 @@ body::-webkit-scrollbar-thumb {
     .content-catalog{
         margin: 0;
         padding: 0;
-        /* min-width: 769px;
-        max-width: 1079px; */
+        max-width: 467px;
     }
     .card-view{
         display: block;
@@ -922,9 +921,9 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 20px 30px 0px 10px;
+        margin: 20px 10px 0px 5px;
         height: 170px;
-        width: 98.5%;
+        width: 95%;
         display: flex;
         justify-content: space-around;
         background-image: linear-gradient(to left,#0C1F26, #5B6569); 
@@ -966,10 +965,10 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease-in-out;
     }
     .square-card{
-        margin: 10px 10px 0 10px;
+        margin: 10px 10px 0 5px;
         padding: 30px;
         height: 110px;
-        width: 98.5%;
+        width: 100%;
         background: #0C1F26; 
         border-radius: 20px;
         transition: all .5s ease;
@@ -986,8 +985,8 @@ body::-webkit-scrollbar-thumb {
     }
     .product-grid{
         margin: 15px 10px 50px 8px;
-        display: grid;
-        grid-template-columns: auto auto;
+        display: block;
+        grid-template-columns: auto;
         column-gap: 15px;
         align-items: flex-start;
         justify-content: start;
@@ -995,15 +994,15 @@ body::-webkit-scrollbar-thumb {
     .product-card{
         /* margin-left: 40%; */
         margin-top: 20px;
-        width: 200px;
-        height: 150px;
+        width: 100%;
+        height: 200px;
         background-color: #f9f8f8;
         border: 1px solid #cbcbcb;
         border-radius: 15px;
         cursor: pointer;
     }
     .respo-img{
-        height: 100px;
+        height: 160px;
         width: auto;
         display: block;
         margin-left: auto;
@@ -1017,8 +1016,9 @@ body::-webkit-scrollbar-thumb {
     }
     .product-text{
         margin: -5px 0 20px 20px;
-        font-size: 0.7rem;
+        font-size: 1rem;
         font-weight: 600;
+        text-align: center;
         text-transform: capitalize;
     }
 }
