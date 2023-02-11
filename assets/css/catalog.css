@@ -165,7 +165,7 @@ body::-webkit-scrollbar-thumb {
         left: 19%;
         display: block;
         align-items: center;
-        justify-content: s;
+        justify-content: start;
     }
     .card-view{
         display: flex;
