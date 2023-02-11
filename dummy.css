@@ -1,0 +1,73 @@
+.products-slides{
+        margin-left: -110px;
+        padding: 0;
+        height: auto;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+/*
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+*/
+        transition: all 1s ease;
+    }
+    .product-card{
+        position: relative;
+        display: inline-block;
+        width: 270px;
+        height: 400px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 30px;
+        transition: all 1s ease;
+    }
+    .product-img{
+        position: absolute;
+        width: 270px;
+        height: 400px;
+        border-radius: 30px;
+    }
+    .product-img img{
+        position: absolute;
+        width: 270px;
+        height: 400px;
+        border-radius: 30px;
+    }
+    .product-card:hover img{
+        width: 270px;
+        height: 400px;
+        transform: scale(1.2);
+        transition: all 1s ease-in-out;
+    }
+    .overlay-content{
+        position: absolute;
+        width: 270px;
+        height: 300px;
+        z-index: 1;
+    }
+    .linear-gradient{
+        display: flex;
+        width: 270px;
+        height: 270px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        justify-content: center;
+        background-color: linear-gradient(0deg, rgba(217, 217, 217, 0.1), rgba(12, 31, 38, 1));
+    }
+    .btn-content a{
+        bottom: 10px;
+        left: 30px;
+        right: 30px;
+        position: absolute;
+        padding: 15px;
+        height: 60px;
+        width: 200px;
+        color: #000;
+        font-weight: 600;
+        font-size:22px;
+        text-align: center;
+        text-transform: capitalize;
+        background-color: #FFF;
+        border-radius: 30px;
+    }

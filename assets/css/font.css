@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 900;
+	font-style: normal;
+	src: url("../assets/font/San-Francisco/San Francisco/sfuidisplay/SFUIDisplay-Black.otf")
+}
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 800;
+	font-style: normal;
+	src: url("../assets/font/San Francisco/sfuidisplay/SFUIDisplay-Heavy.otf")
+}
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 700;
+	font-style: normal;
+	src: url("../assets/font/San Francisco/sfuidisplay/SFUIDisplay-Bold.ttf")
+}
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 600;
+	font-style: normal;
+	src: url("../assets/font/San Francisco/sfuidisplay/SFUIDisplay-Semibold.otf")
+}
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 500;
+	font-style: normal;
+	src: url("../assets/font/San Francisco/sfuidisplay/SFUIDisplay-Medium.otf")
+}
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../assets/font/San Francisco/sfuidisplay/SFUIDisplay-Regular.otf")
+}
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 300;
+	font-style: normal;
+	src: url("../assets/font/San Francisco/sfuidisplay/SFUIDisplay-Thin.otf")
+}
+@font-face{
+	font-family: "San Francisco";
+	font-weight: 200;
+	font-style: normal;
+	src: url("../assets/font/San Francisco/sfuidisplay/SFUIDisplay-Light.ttf")
+}
