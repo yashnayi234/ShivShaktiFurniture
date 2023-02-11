@@ -22,11 +22,11 @@ var height = window.innerHeight;
 menuCatalogBtn.addEventListener('click',()=>{
 	if(width <= 468 && width >= 768){
 		if (!menuCatalogClose) {
-			document.getElementsByClassName("catalog-tab")[0].style.left = "-300px";
+			document.getElementsByClassName("catalog-tab")[0].style.left = "0px";
 			// catalogTab.classList.add('close');
 			menuCatalogClose = true;
 		}else{
-			document.getElementsByClassName("catalog-tab")[0].style.left = "0px";
+			document.getElementsByClassName("catalog-tab")[0].style.left = "-300px";
 			// catalogTab.classList.remove('close');
 			menuCatalogClose = false;
 		}
