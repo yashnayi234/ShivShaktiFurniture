@@ -454,7 +454,7 @@ body::-webkit-scrollbar-thumb {
 		width: 60px;
 		height: 60px;
         top: 10px;
-        left: -100px;
+        left: -10px;
 		z-index: 1000;
 		cursor: pointer;
 		transition: all .5s ease-in-out;
