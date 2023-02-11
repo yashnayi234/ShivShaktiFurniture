@@ -371,10 +371,10 @@ img.landing-img {
 	}
 }
 @media (max-width: 467px){
-    .logo img{
+    /* .logo img{
         width: 130px;
         height: auto;
-    }
+    } */
     .content-home{
 		padding: 30px;
 		overflow: hidden;
