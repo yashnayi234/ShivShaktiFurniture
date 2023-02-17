@@ -386,11 +386,11 @@ body::-webkit-scrollbar-thumb {
     }
     .img-view{
         margin-top: 40px;
-        height: 55%;
+        height: 48%;
         width: auto;
     }
     .respo-img{
-        height: 100%;
+        height: 70%;
         width: auto;
         display: block;
         margin-left: auto;
@@ -401,11 +401,11 @@ body::-webkit-scrollbar-thumb {
     }
     .title-text{
         font-weight: 800;
-        font-size: 1.9rem;
+        font-size: 1.45rem;
     }
     .title-light-text{
         font-weight: 600;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         color: #9A9A9A;
     }
     .title-light{
