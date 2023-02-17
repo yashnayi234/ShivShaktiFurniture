@@ -26,3 +26,11 @@ body::-webkit-scrollbar-thumb {
     background-color: #FFF;
     outline: 1px solid #FFF;
 }
+
+@media (min-width: 1080px) and (max-width: 1980px){}
+
+@media (min-width: 769px) and (max-width: 1079px){}
+
+@media (min-width: 468px) and (max-width: 768px){}
+
+@media (max-width: 467px){}
