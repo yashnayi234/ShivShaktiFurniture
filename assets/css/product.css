@@ -28,6 +28,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (min-width: 1080px) and (max-width: 1980px){
+    .logo img{
+        /* display: block;
+        margin: 0 auto; */
+        margin-top: 5px;
+        width: 180px;
+        height: auto;
+    }
     .content-header{
         position: fixed;
         width: 100%;
@@ -37,7 +44,7 @@ body::-webkit-scrollbar-thumb {
         /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
         backdrop-filter: blur(19.9px);
         -webkit-backdrop-filter: blur(19.9px);
-        border: 1px solid rgba(255, 255, 255, 0.58);
+        /* border: 1px solid rgba(255, 255, 255, 0.58); */
     }
     .menu-btn-catalog{
 		position:fixed;
@@ -172,7 +179,7 @@ body::-webkit-scrollbar-thumb {
         /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
         backdrop-filter: blur(19.9px);
         -webkit-backdrop-filter: blur(19.9px);
-        border: 1px solid rgba(255, 255, 255, 0.58);
+        /* border: 1px solid rgba(255, 255, 255, 0.58); */
     }
     .menu-btn-catalog{
 		position:fixed;
@@ -307,7 +314,7 @@ body::-webkit-scrollbar-thumb {
         /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
         backdrop-filter: blur(19.9px);
         -webkit-backdrop-filter: blur(19.9px);
-        border: 1px solid rgba(255, 255, 255, 0.58);
+        /* border: 1px solid rgba(255, 255, 255, 0.58); */
     }
     .menu-btn-catalog{
 		position:fixed;
@@ -433,6 +440,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 467px){
+    .logo img{
+        /* display: block;
+        margin: 0 auto; */
+        margin-top: 5px;
+        width: 160px;
+        height: auto;
+    }
     .content-header{
         position: fixed;
         width: 100%;
@@ -442,7 +456,7 @@ body::-webkit-scrollbar-thumb {
         /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
         backdrop-filter: blur(19.9px);
         -webkit-backdrop-filter: blur(19.9px);
-        border: 1px solid rgba(255, 255, 255, 0.58);
+        /* border: 1px solid rgba(255, 255, 255, 0.58); */
     }
     .menu-btn-catalog{
 		position:fixed;
@@ -486,13 +500,6 @@ body::-webkit-scrollbar-thumb {
 		width: 30px;
 		transform: translateY(8px);
 	}
-    .logo img{
-        /* display: block;
-        margin: 0 auto; */
-        margin-top: 5px;
-        width: 160px;
-        height: auto;
-    }
     .catalog-tab{
         position: fixed;
 		top: 75px;
@@ -583,7 +590,6 @@ body::-webkit-scrollbar-thumb {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-
     }
     .card-view{
         display: flex;
@@ -661,19 +667,28 @@ body::-webkit-scrollbar-thumb {
         align-items: flex-start;
         justify-content: start;
     }
+    .card-link{
+        text-decoration: none;
+        color:#000000;
+    }
     .product-card{
         /* margin-left: 40%; */
         margin-top: 20px;
+        padding: 15px;
         width: 330px;
-        height: 210px;
-        background-color: #f9f8f8;
+        /* height: 260px; */
+        /* background-color: #f9f8f8; */
         border: 1px solid #cbcbcb;
         border-radius: 20px;
         cursor: pointer;
     }
+    .product-bg{
+        border-radius: 15px;
+        background-color: #f9f8f8;
+    }
     .respo-img{
-        height: 170px;
-        width: auto;
+        height: 70%;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -681,14 +696,30 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .respo-img:hover{
-        transform: translateY(-15px);
+        /* transform: translateY(-15px); */
         transition: all .5s ease-in-out;
     }
     .product-text{
-        margin: -5px 0 20px 20px;
+        margin: 5px 0 15px 10px;
         font-size: 1.0rem;
         font-weight: 600;
         text-transform: capitalize;
+    }
+    .btn{
+        padding: 8px 0 8px 0;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        background-color: #F07C00;
+        border-radius: 8px;
+    }
+    a.btn-view{
+        margin:5px;
+        font-weight: 200;
+        font-size: 0.9rem;
+        text-align: center;
+        color: #FFFFFF;
     }
 }
 
