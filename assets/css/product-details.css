@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: poppins;
+	list-style: none;
+	scroll-behavior: smooth;
+	/* overflow-x: hidden; */
+}
+/*================================== content footer =========================================*/
+body::-webkit-scrollbar {
+    width: 2px;
+}
+  
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    outline: 1px solid #FFF;
+}
