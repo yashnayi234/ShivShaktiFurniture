@@ -954,7 +954,7 @@ body::-webkit-scrollbar-thumb {
         margin-top: 20px;
         padding: 10px;
         width: 240px;
-        height: 230px;
+        /* height: 230px; */
         /* background-color: #f9f8f8; */
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* border: 1px solid #cbcbcb; */
@@ -1083,6 +1083,7 @@ body::-webkit-scrollbar-thumb {
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 10px;
+        row-gap: 0px;
         align-items: flex-start;
         justify-content: space-between;
     }
@@ -1095,7 +1096,7 @@ body::-webkit-scrollbar-thumb {
         margin-top: 20px;
         padding: 10px;
         width: 180px;
-        height: 190px;
+        /* height: 190px; */
         /* background-color: #f9f8f8; */
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* border: 1px solid #cbcbcb; */

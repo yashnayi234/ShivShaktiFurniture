@@ -365,7 +365,7 @@ body::-webkit-scrollbar-thumb {
         /* display: block;
         margin: 0 auto; */
         margin-top: 5px;
-        width: 170px;
+        width: 150px;
         height: auto;
     }
     .content-header{
@@ -390,8 +390,8 @@ body::-webkit-scrollbar-thumb {
         width: auto;
     }
     .respo-img{
-        height: 70%;
-        width: auto;
+        height: auto;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
