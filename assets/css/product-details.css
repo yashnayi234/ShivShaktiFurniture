@@ -386,7 +386,7 @@ body::-webkit-scrollbar-thumb {
     }
     .img-view{
         margin-top: 40px;
-        height: 48%;
+        height: 38%;
         width: auto;
     }
     .respo-img{
@@ -397,7 +397,7 @@ body::-webkit-scrollbar-thumb {
         margin-right: auto;
     }
     .detail-view{
-        margin: 0px 0 60px 0px;
+        margin: 0px 10px 60px 10px;
     }
     .title-text{
         font-weight: 800;
