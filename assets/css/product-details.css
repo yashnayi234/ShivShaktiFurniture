@@ -386,7 +386,7 @@ body::-webkit-scrollbar-thumb {
     }
     .img-view{
         margin-top: 40px;
-        height: 3%;
+        /* height: 35%; */
         width: auto;
     }
     .respo-img{
