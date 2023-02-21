@@ -1016,7 +1016,7 @@ body::-webkit-scrollbar-thumb {
     }
     .decorated-card{
         margin: 100px 10px 0px 10px;
-        height: 185px;
+        height: 180px;
         width: 95%;
         display: flex;
         justify-content: space-around;
@@ -1025,19 +1025,19 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease;
     }
     .card-light-text{
-        margin: 40px 0 0 30px;
+        margin: 40px 0 0 25px;
         font-weight: 300;
         font-size: 0.7rem;
         color: #FFF;
     }
     .card-head-text{
-        margin: 10px 0 0 30px;
+        margin: 10px 0 0 25px;
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         color: #FFF;
     }
     .card-tags{
-        margin: 20px 0 0 30px;
+        margin: 20px 0 0 25px;
         display: flex;
         align-items: center;
     }
@@ -1051,7 +1051,7 @@ body::-webkit-scrollbar-thumb {
         background: rgba(255, 255,255, .1);
     }
     .card-img img{
-        height: 65%;
+        height: 60%;
         width: auto;
     }
     .card-img:hover img{
@@ -1079,7 +1079,7 @@ body::-webkit-scrollbar-thumb {
         color: #FFF;   
     }
     .product-grid{
-        margin: 15px 20px 50px 20px;
+        margin: 15px 20px 50px 10px;
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 10px;
@@ -1094,8 +1094,8 @@ body::-webkit-scrollbar-thumb {
         /* margin-left: 40%; */
         margin-top: 20px;
         padding: 10px;
-        width: 200px;
-        height: 230px;
+        width: 180px;
+        height: 190px;
         /* background-color: #f9f8f8; */
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* border: 1px solid #cbcbcb; */
@@ -1121,18 +1121,18 @@ body::-webkit-scrollbar-thumb {
     }
     .product-text{
         margin: 5px 0 15px 10px;
-        font-size: 1.0rem;
-        font-weight: 600;
+        font-size: 0.7rem;
+        font-weight: 500;
         text-transform: capitalize;
     }
     .btn{
-        padding: 5px 0 8px 0;
-        height: 35px;
+        padding: 2px 0 8px 0;
+        height: 30px;
         width: 100%;
         text-align: center;
         justify-content: center;
         background-color: #F07C00;
-        border-radius: 10px;
+        border-radius: 7px;
     }
     a.btn-view{
         margin:5px;
