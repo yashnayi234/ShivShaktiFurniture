@@ -455,7 +455,7 @@ body::-webkit-scrollbar-thumb {
         /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
         /* backdrop-filter: blur(19.9px); */
         /* -webkit-backdrop-filter: blur(19.9px); */
-        /* border: 1px solid rgba(255, 255, 255, 0.58); */
+        border-bottom: 1px solid #dcdcdc;
     }
     .menu-btn-catalog{
 		position:fixed;
