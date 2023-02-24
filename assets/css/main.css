@@ -143,9 +143,11 @@
 
 	.navbar{
 		position: absolute;
-		top: 100%;
-		right: -100%;
+		top: 0;
+		left: -100%;
 		width: 270px;
+		height: 800px;
+        padding-top: 100px;
 		background-color: #FFF;
 		border-radius: 10px;
 		display: flex;
@@ -155,7 +157,7 @@
 		transition: all 1s ease;
 	}
 	.navbar.open{
-		right: 2%;
+		left: 0%;
 	}
 	.navbar a{
 		display: block;
