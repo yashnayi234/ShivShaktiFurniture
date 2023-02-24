@@ -158,6 +158,7 @@
 	}
 	.navbar.open{
 		left: 0%;
+        position: fixed;
 	}
 	.navbar a{
 		display: block;
