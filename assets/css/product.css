@@ -1015,7 +1015,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 100px 10px 0px 10px;
+        margin: 90px 10px 0px 10px;
         /* height: 180px; */
         width: 95%;
         display: block;
@@ -1082,7 +1082,7 @@ body::-webkit-scrollbar-thumb {
         color: #FFF;   
     }
     .product-grid{
-        margin: 15px 20px 50px 10px;
+        margin: 0px 20px 50px 10px;
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 10px;
