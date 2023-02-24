@@ -1054,7 +1054,7 @@ body::-webkit-scrollbar-thumb {
     .card-tags{
         margin: 20px 0 0 25px;
         display: flex;
-        align-items: center;
+        align-items: c  enter;
     }
     .tag{
         margin: -10px 5px 0 0;
