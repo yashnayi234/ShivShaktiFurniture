@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb {
         /* display: block;
         margin: 0 auto; */
         margin-top: 5px;
-        width: 170px;
+        width: 160px;
         height: auto;
     }
     .content-header{
