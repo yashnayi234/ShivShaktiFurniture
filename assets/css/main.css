@@ -146,10 +146,10 @@
 		top: 0;
 		left: -100%;
 		width: 270px;
-		height: 800px;
+		height: 900px;
         padding-top: 100px;
 		background-color: #FFF;
-		border-radius: 10px;
+		/* border-radius: 0px 0px 10px 10px; */
 		display: flex;
 		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 		flex-direction: column;

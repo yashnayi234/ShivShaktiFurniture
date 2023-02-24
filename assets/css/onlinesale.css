@@ -49,11 +49,19 @@ body::-webkit-scrollbar-thumb {
     }
     .onlinesale{
         margin: 0;
-        padding: 140px 80px 0 80px;
+        padding: 140px 30px 0 30px;
+    }
+    .card{
+        padding: 20px;
+        background-color: rgba(27, 108, 141, 0.1);
+        border-radius: 10px;
+        height: 250px;
+        width: 300px;
+        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
     .india-mart{
         margin: 0 0 40px 0;
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: space-between;
     }
@@ -93,6 +101,9 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 1080px) and (max-width: 1980px){
     .content-footer{
+        bottom: 0;
+        left: 0;
+        right: 0;
         margin: 40px 0 0 0;
         background: #0C1F26;
     }
