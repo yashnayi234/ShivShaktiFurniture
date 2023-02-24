@@ -474,7 +474,7 @@ body::-webkit-scrollbar-thumb {
 	}
 	.menu-btn__burger{
 		width: 30px;
-		height: 2px;
+		height: 1.5px;
 		background-color: #000000;
 		border-radius: 10px;
         margin-left: 30px;
@@ -486,7 +486,7 @@ body::-webkit-scrollbar-thumb {
 		content: '';
 		position: absolute;
 		width: 30px;
-		height: 2px;
+		height: 1.5px;
 		background-color: #000000;
 		border-radius: 10px;
 		transition: all .5s ease-in-out;
@@ -498,6 +498,18 @@ body::-webkit-scrollbar-thumb {
 	.menu-btn__burger::after{
 		width: 30px;
 		transform: translateY(8px);
+	}
+    /*Animation*/
+    .menu-btn-catalog.open .menu-btn__burger{
+		transform: translateX(-50px);
+		background: transparent;
+		box-shadow: none;
+	}
+	.menu-btn-catalog.open .menu-btn__burger::before{
+		transform: rotate(45deg) translate(35px, -35px);
+	}
+	.menu-btn-catalog.open .menu-btn__burger::after{
+		transform: rotate(-45deg) translate(35px, 35px);
 	}
     .catalog-tab{
         position: fixed;
