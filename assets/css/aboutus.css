@@ -322,7 +322,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-about-us{
         margin: 0;
-        padding: 100px 30px 0 30px;
+        padding: 100px 20px 0 20px;
         overflow-x: hidden;
     }
     .card-view{
@@ -338,7 +338,7 @@ textarea::-webkit-scrollbar-thumb {
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
     .head-text{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-weight: 700;
         color: #0C1F26;
     }
