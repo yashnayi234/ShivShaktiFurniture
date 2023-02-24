@@ -1558,7 +1558,7 @@ img.landing-img {
         width: 230px;
         padding: 15px;
         text-align: center;
-        border: 2px solid #292D32;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .btn-explore a{
@@ -1621,7 +1621,7 @@ img.landing-img {
         width: 230px;
         padding: 15px;
         text-align: center;
-        border: 2px solid #9A9A9A;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .btn-explore a{
@@ -1645,6 +1645,7 @@ img.landing-img {
         text-align: left;
     }
 }
+
 @media (min-width: 769px) and (max-width: 1079px){
     .content-quality-and-design{
         margin-top: 90px;
@@ -1692,7 +1693,7 @@ img.landing-img {
         width: 230px;
         padding: 15px;
         text-align: center;
-        border: 2px solid #292D32;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .btn-explore a{
@@ -1756,7 +1757,7 @@ img.landing-img {
         width: 230px;
         padding: 15px;
         text-align: center;
-        border: 2px solid #9A9A9A;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .margin-left{
@@ -1786,6 +1787,7 @@ img.landing-img {
         text-align: left;
     }
 }
+
 @media (min-width: 468px) and (max-width: 768px){
     .content-quality-and-design{
         margin-top: 90px;
@@ -1833,7 +1835,7 @@ img.landing-img {
         width: 130px;
         padding: 12px;
         text-align: center;
-        border: 2px solid #292D32;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .btn-explore a{
@@ -1897,7 +1899,7 @@ img.landing-img {
         width: 180px;
         padding: 10px;
         text-align: center;
-        border: 2px solid #9A9A9A;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .btn-explore a{
@@ -1927,6 +1929,7 @@ img.landing-img {
         text-align: left;
     }
 }
+
 @media (max-width: 467px){
     .content-quality-and-design{
         margin-top: 90px;
@@ -1974,7 +1977,7 @@ img.landing-img {
         width: 90px;
         padding: 12px;
         text-align: center;
-        border: 2px solid #292D32;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .btn-explore a{
@@ -2038,7 +2041,7 @@ img.landing-img {
         width: 180px;
         padding: 10px;
         text-align: center;
-        border: 2px solid #9A9A9A;
+        border: 2px solid #ffffff;
         border-radius: 10px;
     }
     .btn-explore a{
