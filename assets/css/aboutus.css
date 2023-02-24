@@ -61,21 +61,24 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-about-us{
         margin: 0;
-        padding: 140px;
+        padding: 140px 80px 100px 80px;
         overflow-x: hidden;
     }
     .card-view{
         display: flex;
         align-items: start;
-        justify-content: start;
+        justify-content: space-between;
     }
     .card-about-us{
         margin-top: 20px;
-        margin-right: 20px;
         padding: 20px;
         background-color: rgba(27, 108, 141, 0.1);
         border-radius: 10px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
+    }
+    .margin-right{
+        margin-right: 20px;
+
     }
     .head-text{
         font-size: 2.5rem;
@@ -198,7 +201,6 @@ textarea::-webkit-scrollbar-thumb {
     .description{
         margin-top: 20px;
         text-align: justify;
-        word-break: break-all;
     }
     .providing{
         display: flex;
@@ -286,7 +288,6 @@ textarea::-webkit-scrollbar-thumb {
     .description{
         margin-top: 20px;
         text-align: justify;
-        word-break: break-all;
     }
     .providing{
         display: flex;
@@ -374,7 +375,6 @@ textarea::-webkit-scrollbar-thumb {
     .description{
         margin-top: 20px;
         text-align: justify;
-        word-break: break-all;
     }
     .providing{
         display: flex;
