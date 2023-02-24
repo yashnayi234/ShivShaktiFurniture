@@ -1016,13 +1016,16 @@ body::-webkit-scrollbar-thumb {
     }
     .decorated-card{
         margin: 100px 10px 0px 10px;
-        height: 180px;
+        /* height: 180px; */
         width: 95%;
-        display: flex;
+        display: block;
         justify-content: space-around;
         background-image: linear-gradient(to left,#0C1F26, #5B6569); 
         border-radius: 20px;
         transition: all .5s ease;
+    }
+    .display-text{
+        padding: 1px 0 0 0;
     }
     .card-light-text{
         margin: 40px 0 0 25px;
@@ -1042,7 +1045,7 @@ body::-webkit-scrollbar-thumb {
         align-items: center;
     }
     .tag{
-        margin: -10px 10px 0 0;
+        margin: -10px 5px 0 0;
         padding: 5px 7px;
         font-size: .5rem;
         font-weight: 400;
@@ -1051,8 +1054,8 @@ body::-webkit-scrollbar-thumb {
         background: rgba(255, 255,255, .1);
     }
     .card-img img{
-        height: 60%;
-        width: auto;
+        height: auto;
+        width: 100%;
     }
     .card-img:hover img{
         transform: translateY(-12px);
@@ -1121,9 +1124,10 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease-in-out;
     }
     .product-text{
-        margin: 5px 0 15px 10px;
+        margin: 5px 0 15px 5px;
         font-size: 0.7rem;
         font-weight: 500;
+        overflow-wrap: break-word;
         text-transform: capitalize;
     }
     .btn{
