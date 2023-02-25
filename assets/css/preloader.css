@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: poppins;
+	list-style: none;
+	scroll-behavior: smooth;
+	/* overflow-x: hidden; */
+}
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    background: #ffffff url('assets/img/icon/Shiv-Shakti-Furniture-Animation.gif');
+}
+.pre-load{
+    margin: auto;
+    width: 40%;
+    display: block;
+    align-items: center;
+    justify-content: spa;
+}
