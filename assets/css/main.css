@@ -164,14 +164,15 @@
 		display: block;
 		margin: 12px 0;
 		padding: 0px 25px;
-		color: #9a9a9a;
+		color: #3f3f3f;
 		transition: all 1s ease;
 	}
 	.navbar a:hover{
-		color: #FFAF03;
+        color: #FFAF03;
 		transform: translateY(5px);
 	}
 	.navbar a.active{
+		font-weight: 500;
 		color: #FFAF03;
 	}
 }
