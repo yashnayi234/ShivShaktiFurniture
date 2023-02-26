@@ -291,14 +291,18 @@ img.landing-img {
         width: 160px;
         height: auto;
     }
+    .content-home{
+        padding: 130px 70px 90px   70px;
+    /*           top  right bottom left*/
+    }
     .row-line{
-		display: block;
+		display: flex;
 		align-items: center;
 		justify-content: space-around;
 	}
 	.ssf-tag-line{
 		color: #fff;
-		padding-top: 130px;
+		padding-top: 30px;
 		font-size: 20px ;
 		font-weight: 100;
 		transition: all 1s ease-in;
@@ -307,7 +311,7 @@ img.landing-img {
 		margin-top: 30px;
 		color: #fff;
 		font-weight: 800;
-		font-size: 60px ;
+		font-size: 3.5rem;
 		transition: all 1s ease;
 	}
 	.light-text{
@@ -322,13 +326,13 @@ img.landing-img {
 		width: 80%;
 		color: #FFF;
 		font-weight: 200;
-		font-size: 20px;
+		font-size: 1.1rem;
 		word-wrap: break-word;
 		border-radius: 30px;
 		background-color: rgba(255, 255, 255, 0.1);
 		transition: all 1s ease;
 	}
-	.landing-img img{
+	.landing-img{
 		width: 100%;
 		height: 100%;
 		/* margin-right: 90px; */
@@ -443,7 +447,7 @@ img.landing-img {
 
 @media (min-width: 1080px) and (max-width: 1980px){
     .content-service{
-        margin-top: 50px;
+        margin-top: 90px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -484,7 +488,7 @@ img.landing-img {
        transition: all 1s ease;
     }
     .row-service-content{
-        display: block;
+        display: flex;
         align-content: center;
         justify-content: space-around;
         transition: all 1s ease;
@@ -496,7 +500,7 @@ img.landing-img {
         transition: all 1s ease;
     }
     .service-icon{
-        width: 10%;
+        width: 20%;
         height: auto;
         transition: all 1s ease;
     }
@@ -515,6 +519,12 @@ img.landing-img {
         height: 1px;
         border: 0px;
         background: #D6D6D6;
+    }
+    h2{
+        font-size: 1.1rem;
+    }
+    .description-service{
+        font-size: 0.9rem;
     }
 }
 @media (min-width: 468px) and (max-width: 768px){
@@ -610,7 +620,7 @@ img.landing-img {
 @media (min-width: 1080px) and (max-width: 1980px){
     .content-featured{
         margin-top: -200px;
-        padding-left: 30px;
+        padding-left: 0px;
         margin-bottom: 50px;
         transition: all 1s ease;
         overflow: hidden;
@@ -659,7 +669,7 @@ img.landing-img {
         width: auto;
 /*        margin-left: 260px;*/
         align-content: stretch;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     .product-card{
         position: relative;
@@ -730,7 +740,7 @@ img.landing-img {
 }
 @media (min-width: 769px) and (max-width: 1079px){
     .content-featured{
-        margin-top: 50px;
+        margin-top: -200px;
         padding-left: 30px;
         margin-bottom: 50px;
         transition: all 1s ease;
@@ -1218,9 +1228,11 @@ img.landing-img {
         height: auto;
     }
     img.banner-img{
-        width: 90%;
-        height: auto;
+        width: 95%;
+        height: 100%;
+        display: block;
         margin-left: 20px;
+        margin-right: 20px;
         border-radius: 30px;
     }
     .overlay-text{
@@ -1261,7 +1273,7 @@ img.landing-img {
         margin-bottom: 20px;
     }
     img.item-img{
-        height: 200px;
+        height: 300px;
         width: auto;
         border-radius: 30px;
     }
