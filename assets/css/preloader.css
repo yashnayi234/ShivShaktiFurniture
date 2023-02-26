@@ -37,7 +37,8 @@
         width: 50%;
     }    
 }
-@media (min-width: 769px) and (max-width: 768px){
+
+@media (min-width: 468px) and (max-width: 768px){
     #loader{
         width: 100vw;
         height: 100vh;
@@ -47,7 +48,21 @@
     }
     .pre-load{
         display: block;
-        margin: 15% auto 0% auto;
+        margin: 50% auto 50% auto;
         width: 50%;
+    }    
+}
+@media (max-width: 467px){
+    #loader{
+        width: 100vw;
+        height: 100vh;
+        /* z-index: 1; */
+        overflow: hidden;
+        /* background: #ffffff url('assets/img/icon/Shiv-Shakti-Furniture-Animation.gif'); */
+    }
+    .pre-load{
+        display: block;
+        margin: 50% auto 50% auto;
+        width: 100%;
     }    
 }
