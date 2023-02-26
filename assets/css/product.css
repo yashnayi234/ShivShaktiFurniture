@@ -136,9 +136,10 @@ body::-webkit-scrollbar-thumb {
     }
     .li-tab:hover{
         padding: 5px;
-        color: #FFFFFF;
+        color: #000;
         border-radius: 8px;
-        background-color: #F07C00;
+        border: 1px solid #d9d9d9;
+        background-color: #d9d9d9;
         transition: all .5s ease;
     }
     a.tab-link{
@@ -149,7 +150,7 @@ body::-webkit-scrollbar-thumb {
         font-weight: 300;
     }
     a.tab-link:hover{
-        color: #FFFFFF;
+        color: #000;
         transition: all .5s ease;
     }
     .active{
@@ -274,7 +275,8 @@ body::-webkit-scrollbar-thumb {
         padding: 5px;
         color: #FFFFFF;
         border-radius: 8px;
-        background-color: #F07C00;
+        border: 1px solid #d9d9d9;
+        background-color: #d9d9d9;
         transition: all .5s ease;
     }
     a.tab-link{
@@ -285,7 +287,7 @@ body::-webkit-scrollbar-thumb {
         font-weight: 400;
     }
     a.tab-link:hover{
-        color: #FFFFFF;
+        color: #000;
         transition: all .5s ease;
     }
     .active{
@@ -411,7 +413,8 @@ body::-webkit-scrollbar-thumb {
         padding: 5px;
         color: #FFFFFF;
         border-radius: 8px;
-        background-color: #F07C00;
+        border: 1px solid #d9d9d9;
+        background-color: #d9d9d9;
         transition: all .5s ease;
     }
     a.tab-link{
@@ -422,7 +425,7 @@ body::-webkit-scrollbar-thumb {
         font-weight: 400;
     }
     a.tab-link:hover{
-        color: #FFFFFF;
+        color: #000;
         transition: all .5s ease;
     }
     .active{
@@ -567,7 +570,8 @@ body::-webkit-scrollbar-thumb {
         padding: 5px;
         color: #FFFFFF;
         border-radius: 8px;
-        background-color: #F07C00;
+        border: 1px solid #d9d9d9;
+        background-color: #d9d9d9;
         transition: all .5s ease;
     }
     a.tab-link{
@@ -578,7 +582,7 @@ body::-webkit-scrollbar-thumb {
         font-weight: 400;
     }
     a.tab-link:hover{
-        color: #FFFFFF;
+        color: #000;
         transition: all .5s ease;
     }
     .active{
@@ -728,7 +732,7 @@ body::-webkit-scrollbar-thumb {
     }
     a.btn-view{
         margin:5px;
-        font-weight: 200;
+        font-weight: 400;
         font-size: 0.9rem;
         text-align: center;
         color: #FFFFFF;
@@ -1007,7 +1011,7 @@ body::-webkit-scrollbar-thumb {
     }
     a.btn-view{
         margin:5px;
-        font-weight: 200;
+        font-weight: 400;
         font-size: 0.8rem;
         text-align: center;
         color: #FFFFFF;
@@ -1153,7 +1157,7 @@ body::-webkit-scrollbar-thumb {
     }
     a.btn-view{
         margin:5px;
-        font-weight: 200;
+        font-weight: 400;
         font-size: 0.8rem;
         text-align: center;
         color: #FFFFFF;

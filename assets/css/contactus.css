@@ -62,7 +62,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-contact-us{
         margin: 0;
-        padding: 50px 140px 100px 140px;
+        padding: 140px 140px 100px 140px;
         overflow-x: hidden;
     }
     .card-contact{
@@ -159,7 +159,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .card{
         padding: 20px;
-        width: 350px;
+        width: 400px;
         background-color: rgba(27, 108, 141, 0.1);
         border-radius: 10px;
     }
@@ -213,7 +213,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-contact-us{
         margin: 0;
-        padding: 140px 50px 0 50px;
+        padding: 130px 50px 0 50px;
         overflow-x: hidden;
     }
     .card-contact{
@@ -222,7 +222,7 @@ textarea::-webkit-scrollbar-thumb {
         justify-content: space-between;
     }
     .head-text{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-weight: 700;
         color: #0C1F26;
     }
@@ -270,11 +270,11 @@ textarea::-webkit-scrollbar-thumb {
         pointer-events: none;
     }
     .input-style.wide { 
-        width: 150px;
+        width: 190px;
         max-width: 100%;
     }
     .extra-wide{
-        width: 325px;
+        width: 405px;
         max-width: 100%;
     }
     input, textarea{
@@ -291,7 +291,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .btn button{
         padding: 13px;
-        width: 325px;
+        width: 405px;
         max-width: 100%;
         color: #FFF;
         font-size: 0.8rem;
@@ -301,7 +301,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .map-view iframe{
         border-radius: 20px;
-        width: 300px;
+        width: 425px;
         height: 500px;
     }
     .card-view{
@@ -312,7 +312,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .card{
         padding: 20px;
-        width: 210px;
+        width: 300px;
         height: 210px;
         background-color: rgba(27, 108, 141, 0.1);
         border-radius: 10px;
@@ -368,13 +368,13 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-contact-us{
         margin: 0;
-        padding: 90px 20px 30px 20px;
+        padding: 90px 5% 30px 5%;
         overflow-x: hidden;
     }
     .card-contact{
         display: block;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
     .head-text{
         font-size: 1.7rem;
@@ -388,7 +388,9 @@ textarea::-webkit-scrollbar-thumb {
         /* opacity: 0.7; */
     }
     .form-view{
-        margin: 10px 0 0 0;
+        margin: 10px auto 0 auto;
+        display: block;
+        align-items: center;
     }
     .row{
         display: flex;
@@ -406,7 +408,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .input-style{
         margin-top: 40px;
-        width: 300px;
+        width: 500px;
         position: relative;
         border-radius: 10px;
         /* z-index: -1; */
@@ -427,11 +429,11 @@ textarea::-webkit-scrollbar-thumb {
         margin-right: 25px;
     }
     .input-style.wide { 
-        width: 200px;
+        width: 400px;
         max-width: 100%;
     }
     .extra-wide{
-        width: 425px;
+        width: 725px;
         max-width: 100%;
     }
     input, textarea{
@@ -448,7 +450,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .btn button{
         padding: 13px;
-        width: 425px;
+        width: 725px;
         max-width: 100%;
         color: #FFF;
         font-size: 1rem;
@@ -458,8 +460,8 @@ textarea::-webkit-scrollbar-thumb {
     }
     .map-view iframe{
         margin: 60px 0 0 0;
-        border-radius: 20px;
-        width: 425px;
+        border-radius: 10px;
+        width: 685px;
         height: 350px;
     }
     .card-view{
@@ -471,7 +473,6 @@ textarea::-webkit-scrollbar-thumb {
     .card{
         margin: 10px 0 15px 0;
         padding: 20px;
-        width: 425px;
         background-color: rgba(27, 108, 141, 0.1);
         border-radius: 10px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
