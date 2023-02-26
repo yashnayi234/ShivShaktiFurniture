@@ -49,7 +49,8 @@ textarea::-webkit-scrollbar-thumb {
         height: auto;
     }
     .content-header{
-        position: fixed;
+        position: sticky;
+        top: 0;
         width: 100%;
         padding: 10px 0 0 0;
         background: rgba(255, 255, 255, 1);
@@ -101,9 +102,9 @@ textarea::-webkit-scrollbar-thumb {
         margin-top: 40px;
         margin-right: 25px;
         width: 300px;
-        position: relative;
+        position:relative;
         border-radius: 10px;
-        z-index: -1;
+        /* z-index: -1;  */
     }
     .input-style label{
         padding: 13px 20px;
@@ -199,7 +200,7 @@ textarea::-webkit-scrollbar-thumb {
         height: auto;
     }
     .content-header{
-        position: fixed;
+        position: relative;
         width: 100%;
         padding: 10px 0 0 0;
         background: rgba(255, 255, 255, 1);
