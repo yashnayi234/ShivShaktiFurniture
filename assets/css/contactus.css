@@ -50,7 +50,6 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-header{
         position: sticky;
-        top: 0;
         width: 100%;
         padding: 10px 0 0 0;
         background: rgba(255, 255, 255, 1);
@@ -62,7 +61,7 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-contact-us{
         margin: 0;
-        padding: 140px;
+        padding: 50px 140px 100px 140px;
         overflow-x: hidden;
     }
     .card-contact{
@@ -102,7 +101,7 @@ textarea::-webkit-scrollbar-thumb {
         margin-top: 40px;
         margin-right: 25px;
         width: 300px;
-        position:relative;
+        position: relative;
         border-radius: 10px;
         /* z-index: -1;  */
     }

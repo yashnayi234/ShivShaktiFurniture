@@ -5,6 +5,6 @@ function redirect () {
  }
 
  function myURL() {
-    document.location.href = 'index.html';
+    document.location.href = 'home.html';
     clearInterval(interval);
  }
