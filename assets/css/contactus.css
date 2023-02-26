@@ -161,8 +161,6 @@ textarea::-webkit-scrollbar-thumb {
         width: 350px;
         background-color: rgba(27, 108, 141, 0.1);
         border-radius: 10px;
-        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
-
     }
     .icon{
         width: 48px;
