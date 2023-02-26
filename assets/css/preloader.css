@@ -8,15 +8,46 @@
 	scroll-behavior: smooth;
 	/* overflow-x: hidden; */
 }
-#loader{
-    width: 100vw;
-    height: 100vh;
-    /* z-index: 1; */
-    overflow: hidden;
-    /* background: #ffffff url('assets/img/icon/Shiv-Shakti-Furniture-Animation.gif'); */
+
+@media (min-width: 1080px) and (max-width: 1980px){
+    #loader{
+        width: 100vw;
+        height: 100vh;
+        /* z-index: 1; */
+        overflow: hidden;
+        /* background: #ffffff url('assets/img/icon/Shiv-Shakti-Furniture-Animation.gif'); */
+    }
+    .pre-load{
+        display: block;
+        margin: 15% auto 0% auto;
+        width: 40%;
+    }    
 }
-.pre-load{
-    display: block;
-    margin: 15% auto 0% auto;
-    width: 40%;
+@media (min-width: 769px) and (max-width: 1079px){
+    #loader{
+        width: 100vw;
+        height: 100vh;
+        /* z-index: 1; */
+        overflow: hidden;
+        /* background: #ffffff url('assets/img/icon/Shiv-Shakti-Furniture-Animation.gif'); */
+    }
+    .pre-load{
+        display: block;
+        margin: 15% auto 0% auto;
+        width: 50%;
+    }    
+}
+@media (min-width: 769px) and (max-width: 768px){
+    #loader{
+        width: 100vw;
+        height: 100vh;
+        /* z-index: 1; */
+        overflow: hidden;
+        /* background: #ffffff url('assets/img/icon/Shiv-Shakti-Furniture-Animation.gif'); */
+    }
+    .pre-load{
+        display: block;
+        margin: 15% auto 0% auto;
+        width: 50%;
+    }    
 }
