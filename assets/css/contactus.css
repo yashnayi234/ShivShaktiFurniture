@@ -255,7 +255,7 @@ textarea::-webkit-scrollbar-thumb {
         width: 200px;
         position: relative;
         border-radius: 10px;
-        z-index: -1;
+        /* z-index: -1; */
     }
     .input-style label{
         padding: 9px 12px;
@@ -409,7 +409,7 @@ textarea::-webkit-scrollbar-thumb {
         width: 300px;
         position: relative;
         border-radius: 10px;
-        z-index: -1;
+        /* z-index: -1; */
     }
     .input-style label{
         padding: 13px 20px;
@@ -567,7 +567,7 @@ textarea::-webkit-scrollbar-thumb {
         width: 300px;
         position: relative;
         border-radius: 10px;
-        z-index: -1;
+        /* z-index: -1; */
     }
     .input-style label{
         padding: 13px 20px;
