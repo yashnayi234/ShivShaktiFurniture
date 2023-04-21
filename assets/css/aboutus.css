@@ -116,7 +116,7 @@ textarea::-webkit-scrollbar-thumb {
         display: block;
         text-align: center;
         justify-content: center;
-        background-color: #FFC107;
+        background-color: #850000;
     }
     .msg-line{
         font-size: 1.7rem;
@@ -260,7 +260,7 @@ textarea::-webkit-scrollbar-thumb {
         display: block;
         text-align: center;
         justify-content: center;
-        background-color: #FFC107;
+        background-color: #850000;
     }
     .msg-line{
         font-size: 1.7rem;
@@ -476,7 +476,7 @@ textarea::-webkit-scrollbar-thumb {
     }    
 }
 
-@media (max-width: 467px){
+@media (min-width: 375px) and (max-width: 467px){
     .logo img{
         /* display: block;
         margin: 0 auto; */
@@ -502,27 +502,27 @@ textarea::-webkit-scrollbar-thumb {
     }
     
     .head-text{
-        padding: 0px 10% 0px 10%;
+        padding: 0px 6% 0px 6%;
         font-size: 1.7rem;
         font-weight: 700;
         color: #0C1F26;
     }
     .about-us-description{
-        padding: 0px 10% 20px 10%;
+        padding: 0px 6% 20px 6%;
         margin-top: 20px;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         text-align: left;
     }
     .sub-head-text{
-        padding: 0px 10% 20px 10%;
+        padding: 0px 6% 20px 6%;
         margin-top: 60px;
         font-size: 1.3rem;
         font-weight: 700;
         color: #0C1F26;
     }
     .img-card-details{
-        margin: 40px 0px 0px 0px;
-        padding: 0px 10% 20px 10%;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 6% 20px 6%;
         display: block;
         align-items: center;
         justify-content: space-between;
@@ -532,7 +532,7 @@ textarea::-webkit-scrollbar-thumb {
         flex-direction: column-reverse;
     }
     .img-view{
-        height: 230px;
+        height: 200px;
         width: auto;
         border-radius: 13px;
     }
@@ -553,11 +553,11 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-msg{
         margin-top: 50px;
-        padding: 100px 8% 100px 8%;
+        padding: 60px 6% 60px 6%;
         display: block;
         text-align: center;
         justify-content: center;
-        background-color: #FFC107;
+        background-color: #850000;
     }
     .msg-line{
         font-size: 1.1rem;
@@ -568,13 +568,13 @@ textarea::-webkit-scrollbar-thumb {
     .btn-view{
         margin: 40px 30% 0 30%;
         padding: 15px;
-        color: #fff;
-        font-size: 0.7rem;
-        background-color: #0C1F26;
+        color: #0C1F26;
+        font-size: 0.9rem;
+        background-color: #fff;
         border-radius: 50px;
     }
     .grid-view{
-        padding: 0px 10% 20px 10%;
+        padding: 0px 5% 20px 5%;
         display: grid;
         grid-template-columns: auto;
     }
@@ -594,7 +594,7 @@ textarea::-webkit-scrollbar-thumb {
         text-decoration: none; /*#0C1F26*/
     }
     .padding{
-        padding: 0px 10% 20px 10%;
+        padding: 0px 6% 20px 6%;
     }
     .sub-text{
         font-size: 1.3rem;
@@ -614,13 +614,15 @@ textarea::-webkit-scrollbar-thumb {
     }
     .link-contact{
         display: flex;
-        align-items: center;
-        justify-content: safe;
+        align-items: start;
         margin: 20px 20px 0 0;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-size: 300;
         text-decoration: none;
         color: #fff; /*#0C1F26*/
+    }
+    .link-text{
+        margin-top: 7px;
     }
     .icon-arrow{
         margin-right: 10px;
