@@ -116,7 +116,7 @@ textarea::-webkit-scrollbar-thumb {
         display: block;
         text-align: center;
         justify-content: center;
-        background-color: #850000;
+        background-color: #000;
     }
     .msg-line{
         font-size: 1.7rem;
@@ -127,8 +127,8 @@ textarea::-webkit-scrollbar-thumb {
     .btn-view{
         margin: 40px 40% 0 40%;
         padding: 15px;
-        color: #fff;
-        background-color: #0C1F26;
+        color: #000;
+        background-color: #fff;
         border-radius: 50px;
     }
     .grid-view{
@@ -260,7 +260,7 @@ textarea::-webkit-scrollbar-thumb {
         display: block;
         text-align: center;
         justify-content: center;
-        background-color: #850000;
+        background-color: #000;
     }
     .msg-line{
         font-size: 1.7rem;
@@ -271,8 +271,8 @@ textarea::-webkit-scrollbar-thumb {
     .btn-view{
         margin: 40px 40% 0 40%;
         padding: 15px;
-        color: #fff;
-        background-color: #0C1F26;
+        color: #000;
+        background-color: #fff;
         border-radius: 50px;
     }
     .grid-view{
@@ -408,7 +408,7 @@ textarea::-webkit-scrollbar-thumb {
         display: block;
         text-align: center;
         justify-content: center;
-        background-color: #FFC107;
+        background-color: #000;
     }
     .msg-line{
         font-size: 1.7rem;
@@ -419,8 +419,8 @@ textarea::-webkit-scrollbar-thumb {
     .btn-view{
         margin: 40px 40% 0 40%;
         padding: 15px;
-        color: #fff;
-        background-color: #0C1F26;
+        color: #000;
+        background-color: #fff;
         border-radius: 50px;
     }
     .grid-view{
@@ -558,7 +558,7 @@ textarea::-webkit-scrollbar-thumb {
         display: block;
         text-align: center;
         justify-content: center;
-        background-color: #850000;
+        background-color: #000;
     }
     .msg-line{
         font-size: 1.1rem;
