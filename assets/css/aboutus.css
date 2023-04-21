@@ -581,17 +581,19 @@ textarea::-webkit-scrollbar-thumb {
     }
     .card-view{
         margin: 20px 10px 5px 10px;
-        padding: 20px;
-        background-color: #0C1F26;
+        padding: 17px;
+        background-color: #fff;
         border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
+
     .providing{
         display: flex;
         align-items:center;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-size: 200;
-        color: #FFF;
+        color: #0C1F26;
         text-decoration: none; /*#0C1F26*/
     }
     .padding{
@@ -600,7 +602,7 @@ textarea::-webkit-scrollbar-thumb {
     .sub-text{
         font-size: 1.3rem;
         font-weight: 700;
-        color: #fff;
+        color: #0C1F26;
         /* opacity: 0.7; */
     }
     .icon{
@@ -620,7 +622,7 @@ textarea::-webkit-scrollbar-thumb {
         font-size: 0.9rem;
         font-size: 300;
         text-decoration: none;
-        color: #fff; /*#0C1F26*/
+        color: #0C1F26
     }
     .link-text{
         margin-top: 7px;
