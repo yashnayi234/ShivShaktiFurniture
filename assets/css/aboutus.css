@@ -579,15 +579,20 @@ textarea::-webkit-scrollbar-thumb {
         display: grid;
         grid-template-columns: auto;
     }
+    .pre-card{
+        margin: 20px 0px 0px 0px;
+        padding: 8px 3px 3px 3px;
+        background-color: #0C1F26;
+        border-radius: 10px;
+    }
     .card-view{
-        margin: 20px 10px 5px 10px;
+        margin: 20px 0px 0px 0px;
         padding: 17px;
         background-color: #fff;
-        border-radius: 10px;
+        border-radius: 8px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
-
     .providing{
         display: flex;
         align-items:center;
