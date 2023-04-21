@@ -61,34 +61,103 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-about-us{
         margin: 0;
-        padding: 140px 80px 100px 80px;
+        padding: 140px 0 100px 0%;
         overflow-x: hidden;
     }
-    .card-view{
-        display: flex;
-        align-items: start;
-        justify-content: space-between;
-    }
-    .card-about-us{
-        margin-top: 20px;
-        padding: 20px;
-        background-color: rgba(27, 108, 141, 0.1);
-        border-radius: 10px;
-        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
-    }
-    .margin-right{
-        margin-right: 20px;
-
-    }
+    
     .head-text{
+        padding: 0px 10% 0px 10%;
         font-size: 2.5rem;
         font-weight: 700;
         color: #0C1F26;
     }
+    .about-us-description{
+        padding: 0px 10% 20px 10%;
+        margin-top: 20px;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    .sub-head-text{
+        padding: 0px 10% 20px 10%;
+        margin-top: 60px;
+        font-size: 2.0rem;
+        font-weight: 700;
+        color: #0C1F26;
+    }
+    .img-card-details{
+        margin: 40px 0px 0px 0px;
+        padding: 0px 10% 20px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-view{
+        height: 400px;
+        width: auto;
+        border-radius: 20px;
+    }
+    .details-view{
+        width: 400px;
+        display: block;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .title-view{
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .description-view{
+        margin-top: 20px;
+    }
+    .content-msg{
+        margin-top: 100px;
+        padding: 100px 18% 100px 18%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-color: #FFC107;
+    }
+    .msg-line{
+        font-size: 1.7rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFF;
+    }
+    .btn-view{
+        margin: 40px 40% 0 40%;
+        padding: 15px;
+        color: #fff;
+        background-color: #0C1F26;
+        border-radius: 50px;
+    }
+    .grid-view{
+        padding: 0px 10% 20px 10%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .card-view{
+        margin: 20px 10px 5px 10px;
+        padding: 20px;
+        background-color: #0C1F26;
+        border-radius: 10px;
+        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
+    }
+    .providing{
+        display: flex;
+        align-items:center;
+        font-size: 1.1rem;
+        font-size: 300;
+        color: #FFF;
+        text-decoration: none; /*#0C1F26*/
+    }
+    .padding{
+        padding: 0px 10% 20px 10%;
+    }
     .sub-text{
         font-size: 1.3rem;
         font-weight: 700;
-        color: #0C1F26;
+        color: #fff;
         /* opacity: 0.7; */
     }
     .icon{
@@ -108,20 +177,7 @@ textarea::-webkit-scrollbar-thumb {
         font-size: 1.1rem;
         font-size: 300;
         text-decoration: none;
-        color: #00135f; /*#0C1F26*/
-    }
-    .description{
-        margin-top: 20px;
-        text-align: justify;
-        word-break: break-all;
-    }
-    .providing{
-        display: flex;
-        align-items:start;
-        margin: 20px 30px 0 0;
-        font-size: 1.1rem;
-        font-size: 300;
-        text-decoration: none; /*#0C1F26*/
+        color: #fff; /*#0C1F26*/
     }
     .icon-arrow{
         margin-right: 10px;
@@ -133,7 +189,7 @@ textarea::-webkit-scrollbar-thumb {
         /* display: block;
         margin: 0 auto; */
         margin-top: 5px;
-        width: 170px;
+        width: 180px;
         height: auto;
     }
     .content-header{
@@ -149,66 +205,123 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-about-us{
         margin: 0;
-        padding: 100px 30px 0 30px;
+        padding: 140px 0 100px 0%;
         overflow-x: hidden;
     }
-    .card-view{
-        display: flex;
-        align-items: start;
-        justify-content: start;
+    
+    .head-text{
+        padding: 0px 10% 0px 10%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #0C1F26;
     }
-    .card-about-us{
-        margin: 20px 0 0 20px;
+    .about-us-description{
+        padding: 0px 10% 20px 10%;
+        margin-top: 20px;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    .sub-head-text{
+        padding: 0px 10% 20px 10%;
+        margin-top: 60px;
+        font-size: 2.0rem;
+        font-weight: 700;
+        color: #0C1F26;
+    }
+    .img-card-details{
+        margin: 40px 0px 0px 0px;
+        padding: 0px 10% 20px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-view{
+        height: 300px;
+        width: auto;
+        border-radius: 20px;
+    }
+    .details-view{
+        width: 400px;
+        display: block;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .title-view{
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .description-view{
+        margin-top: 20px;
+    }
+    .content-msg{
+        margin-top: 100px;
+        padding: 100px 18% 100px 18%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-color: #FFC107;
+    }
+    .msg-line{
+        font-size: 1.7rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFF;
+    }
+    .btn-view{
+        margin: 40px 40% 0 40%;
+        padding: 15px;
+        color: #fff;
+        background-color: #0C1F26;
+        border-radius: 50px;
+    }
+    .grid-view{
+        padding: 0px 10% 20px 10%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .card-view{
+        margin: 20px 10px 5px 10px;
         padding: 20px;
-        background-color: rgba(27, 108, 141, 0.1);
+        background-color: #0C1F26;
         border-radius: 10px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
-    .head-text{
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: #0C1F26;
+    .providing{
+        display: flex;
+        align-items:center;
+        font-size: 1.1rem;
+        font-size: 300;
+        color: #FFF;
+        text-decoration: none; /*#0C1F26*/
+    }
+    .padding{
+        padding: 0px 10% 20px 10%;
     }
     .sub-text{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         font-weight: 700;
-        color: #0C1F26;
+        color: #fff;
         /* opacity: 0.7; */
     }
     .icon{
-        margin-top: 20px;
         margin-right: 10px;
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         max-width: 100%;
         max-height: 100%;
-        padding: 5px;
+        padding: 8px;
         background-color: #0C1F26;
-        border-radius: 7px;
+        border-radius: 10px;
     }
     .link-contact{
         display: flex;
-        align-items: start;
-        justify-content: start;
-    }
-    .link-text{
+        align-items:start;
         margin: 20px 20px 0 0;
-        font-size: 1.0rem;
+        font-size: 1.1rem;
         font-size: 300;
         text-decoration: none;
-        color: #00135f; /*#0C1F26*/
-    }
-    .description{
-        margin-top: 20px;
-        text-align: justify;
-    }
-    .providing{
-        display: flex;
-        align-items:start;
-        margin: 20px 30px 0 0;
-        font-size: 0.95rem;
-        font-size: 300;
-        text-decoration: none; /*#0C1F26*/
+        color: #fff; /*#0C1F26*/
     }
     .icon-arrow{
         margin-right: 10px;
@@ -220,7 +333,7 @@ textarea::-webkit-scrollbar-thumb {
         /* display: block;
         margin: 0 auto; */
         margin-top: 5px;
-        width: 160px;
+        width: 180px;
         height: auto;
     }
     .content-header{
@@ -236,66 +349,127 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-about-us{
         margin: 0;
-        padding: 100px 30px 0 30px;
+        padding: 140px 0 100px 0%;
         overflow-x: hidden;
     }
-    .card-view{
+    
+    .head-text{
+        padding: 0px 10% 0px 10%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #0C1F26;
+    }
+    .about-us-description{
+        padding: 0px 10% 20px 10%;
+        margin-top: 20px;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    .sub-head-text{
+        padding: 0px 10% 20px 10%;
+        margin-top: 60px;
+        font-size: 2.0rem;
+        font-weight: 700;
+        color: #0C1F26;
+    }
+    .img-card-details{
+        margin: 40px 0px 0px 0px;
+        padding: 0px 10% 20px 10%;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-revers{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-view{
+        height: 400px;
+        width: auto;
+        border-radius: 20px;
+    }
+    .details-view{
+        margin: 10px;
         display: block;
         align-items: start;
-        justify-content: start;
+        justify-content: space-between;
     }
-    .card-about-us{
+    .title-view{
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .description-view{
         margin-top: 20px;
+    }
+    .content-msg{
+        margin-top: 100px;
+        padding: 100px 10% 100px 10%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-color: #FFC107;
+    }
+    .msg-line{
+        font-size: 1.7rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFF;
+    }
+    .btn-view{
+        margin: 40px 40% 0 40%;
+        padding: 15px;
+        color: #fff;
+        background-color: #0C1F26;
+        border-radius: 50px;
+    }
+    .grid-view{
+        padding: 0px 10% 20px 10%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .card-view{
+        margin: 20px 10px 5px 10px;
         padding: 20px;
-        background-color: rgba(27, 108, 141, 0.1);
+        background-color: #0C1F26;
         border-radius: 10px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
-    .head-text{
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: #0C1F26;
+    .providing{
+        display: flex;
+        align-items:center;
+        font-size: 1.1rem;
+        font-size: 300;
+        color: #FFF;
+        text-decoration: none; /*#0C1F26*/
+    }
+    .padding{
+        padding: 0px 10% 20px 10%;
     }
     .sub-text{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         font-weight: 700;
-        color: #0C1F26;
+        color: #fff;
         /* opacity: 0.7; */
     }
     .icon{
-        margin-top: 20px;
         margin-right: 10px;
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         max-width: 100%;
         max-height: 100%;
-        padding: 5px;
+        padding: 8px;
         background-color: #0C1F26;
-        border-radius: 7px;
+        border-radius: 10px;
     }
     .link-contact{
         display: flex;
-        align-items: start;
-        justify-content: start;
-    }
-    .link-text{
+        align-items:start;
         margin: 20px 20px 0 0;
-        font-size: 1.0rem;
+        font-size: 1.1rem;
         font-size: 300;
         text-decoration: none;
-        color: #00135f; /*#0C1F26*/
-    }
-    .description{
-        margin-top: 20px;
-        text-align: justify;
-    }
-    .providing{
-        display: flex;
-        align-items:start;
-        margin: 20px 30px 0 0;
-        font-size: 0.95rem;
-        font-size: 300;
-        text-decoration: none; /*#0C1F26*/
+        color: #fff; /*#0C1F26*/
     }
     .icon-arrow{
         margin-right: 10px;
@@ -307,7 +481,7 @@ textarea::-webkit-scrollbar-thumb {
         /* display: block;
         margin: 0 auto; */
         margin-top: 5px;
-        width: 160px;
+        width: 180px;
         height: auto;
     }
     .content-header{
@@ -323,66 +497,130 @@ textarea::-webkit-scrollbar-thumb {
     }
     .content-about-us{
         margin: 0;
-        padding: 100px 20px 0 20px;
+        padding: 140px 0 100px 0%;
         overflow-x: hidden;
     }
-    .card-view{
-        display: block;
-        align-items: start;
-        justify-content: start;
-    }
-    .card-about-us{
-        margin-top: 20px;
-        padding: 20px;
-        background-color: rgba(27, 108, 141, 0.1);
-        border-radius: 10px;
-        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
-    }
+    
     .head-text{
+        padding: 0px 10% 0px 10%;
         font-size: 1.7rem;
         font-weight: 700;
         color: #0C1F26;
     }
-    .sub-text{
-        font-size: 1.1rem;
+    .about-us-description{
+        padding: 0px 10% 20px 10%;
+        margin-top: 20px;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    .sub-head-text{
+        padding: 0px 10% 20px 10%;
+        margin-top: 60px;
+        font-size: 1.3rem;
         font-weight: 700;
         color: #0C1F26;
-        /* opacity: 0.7; */
     }
-    .icon{
-        margin-top: 20px;
-        margin-right: 10px;
-        width: 30px;
-        height: 30px;
-        max-width: 100%;
-        max-height: 100%;
-        padding: 5px;
-        background-color: #0C1F26;
-        border-radius: 7px;
+    .img-card-details{
+        margin: 40px 0px 0px 0px;
+        padding: 0px 10% 20px 10%;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
     }
-    .link-contact{
+    .img-revers{
         display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-view{
+        height: 230px;
+        width: auto;
+        border-radius: 13px;
+    }
+    .details-view{
+        margin: 10px;
+        display: block;
         align-items: start;
-        justify-content: start;
+        font-size: 0.9rem;
+        justify-content: space-between;
     }
-    .link-text{
-        margin: 20px 20px 0 0;
-        font-size: 1.0rem;
-        font-size: 300;
-        text-decoration: none;
-        color: #00135f; /*#0C1F26*/
+    .title-view{
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: left;
     }
-    .description{
+    .description-view{
         margin-top: 20px;
-        text-align: justify;
+    }
+    .content-msg{
+        margin-top: 50px;
+        padding: 100px 8% 100px 8%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-color: #FFC107;
+    }
+    .msg-line{
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFF;
+    }
+    .btn-view{
+        margin: 40px 30% 0 30%;
+        padding: 15px;
+        color: #fff;
+        font-size: 0.7rem;
+        background-color: #0C1F26;
+        border-radius: 50px;
+    }
+    .grid-view{
+        padding: 0px 10% 20px 10%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .card-view{
+        margin: 20px 10px 5px 10px;
+        padding: 20px;
+        background-color: #0C1F26;
+        border-radius: 10px;
+        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
     .providing{
         display: flex;
-        align-items:start;
-        margin: 20px 30px 0 0;
-        font-size: 0.95rem;
-        font-size: 300;
+        align-items:center;
+        font-size: 0.8rem;
+        font-size: 200;
+        color: #FFF;
         text-decoration: none; /*#0C1F26*/
+    }
+    .padding{
+        padding: 0px 10% 20px 10%;
+    }
+    .sub-text{
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #fff;
+        /* opacity: 0.7; */
+    }
+    .icon{
+        margin-right: 10px;
+        width: 35px;
+        height: 35px;
+        max-width: 100%;
+        max-height: 100%;
+        padding: 8px;
+        background-color: #0C1F26;
+        border-radius: 10px;
+    }
+    .link-contact{
+        display: flex;
+        align-items: center;
+        justify-content: safe;
+        margin: 20px 20px 0 0;
+        font-size: 0.8rem;
+        font-size: 300;
+        text-decoration: none;
+        color: #fff; /*#0C1F26*/
     }
     .icon-arrow{
         margin-right: 10px;
