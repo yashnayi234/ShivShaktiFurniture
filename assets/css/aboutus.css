@@ -581,15 +581,15 @@ textarea::-webkit-scrollbar-thumb {
     }
     .pre-card{
         margin: 20px 0px 0px 0px;
-        padding: 8px 3px 3px 3px;
-        background-color: #0C1F26;
-        border-radius: 10px;
+        padding: 10px 6px 6px 6px;
+        background-color: #1920D1;
+        border-radius: 20px;
     }
     .card-view{
         margin: 20px 0px 0px 0px;
         padding: 17px;
         background-color: #fff;
-        border-radius: 8px;
+        border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
