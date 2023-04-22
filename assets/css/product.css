@@ -674,6 +674,21 @@ body::-webkit-scrollbar-thumb {
         font-size: 1.0rem;
         color: #FFF;   
     }
+    .grid-view{
+        margin: 30px 30px 0 30px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .img-card{
+        margin: auto;
+        padding: auto;
+    }
+    .img-view{
+        width: 98%;
+        height: auto;
+        /* border-radius: 20px; */
+        object-fit: cover;
+    }
     .product-grid{
         margin: 20px 25px 50px 30px;
         display: grid;
@@ -812,6 +827,21 @@ body::-webkit-scrollbar-thumb {
         font-weight: 300;
         font-size: 1.0rem;
         color: #FFF;   
+    }
+    .grid-view{
+        margin: 30px 30px 0 30px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .img-card{
+        margin: auto;
+        padding: auto;
+    }
+    .img-view{
+        width: 98%;
+        height: auto;
+        /* border-radius: 20px; */
+        object-fit: cover;
     }
     .product-grid{
         margin: 15px 30px 50px 30px;
@@ -952,6 +982,21 @@ body::-webkit-scrollbar-thumb {
         font-weight: 300;
         font-size: 1.0rem;
         color: #cfcfcf;   
+    }
+    .grid-view{
+        margin: 30px 30px 0 30px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .img-card{
+        margin: auto;
+        padding: auto;
+    }
+    .img-view{
+        width: 98%;
+        height: auto;
+        /* border-radius: 20px; */
+        object-fit: cover;
     }
     .product-grid{
         margin: 15px 20px 50px 20px;
@@ -1096,6 +1141,21 @@ body::-webkit-scrollbar-thumb {
         font-weight: 300;
         font-size: 1.0rem;
         color: #FFF;   
+    }
+    .grid-view{
+        margin: 30px 30px 0 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .img-card{
+        margin: auto;
+        padding: auto;
+    }
+    .img-view{
+        width: 98%;
+        height: auto;
+        /* border-radius: 20px; */
+        object-fit: cover;
     }
     .product-grid{
         margin: 0px 20px 50px 10px;

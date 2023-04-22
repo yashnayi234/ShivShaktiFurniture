@@ -136,11 +136,18 @@ textarea::-webkit-scrollbar-thumb {
         display: grid;
         grid-template-columns: auto auto auto;
     }
+    .pre-card{
+        margin: 20px 10px 0px 0px;
+        padding: 10px 6px 6px 6px;
+        background-color: #0B57CF;
+        border-radius: 20px;
+    }
     .card-view{
-        margin: 20px 10px 5px 10px;
-        padding: 20px;
-        background-color: #0C1F26;
-        border-radius: 10px;
+        margin: 20px 0px 0px 0px;
+        padding: 17px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
     .providing{
@@ -148,7 +155,7 @@ textarea::-webkit-scrollbar-thumb {
         align-items:center;
         font-size: 1.1rem;
         font-size: 300;
-        color: #FFF;
+        color: #0C1F26;
         text-decoration: none; /*#0C1F26*/
     }
     .padding{
@@ -157,7 +164,7 @@ textarea::-webkit-scrollbar-thumb {
     .sub-text{
         font-size: 1.3rem;
         font-weight: 700;
-        color: #fff;
+        color: #0C1F26;
         /* opacity: 0.7; */
     }
     .icon{
@@ -177,7 +184,7 @@ textarea::-webkit-scrollbar-thumb {
         font-size: 1.1rem;
         font-size: 300;
         text-decoration: none;
-        color: #fff; /*#0C1F26*/
+        color: #0C1F26;
     }
     .icon-arrow{
         margin-right: 10px;
@@ -287,12 +294,26 @@ textarea::-webkit-scrollbar-thumb {
         border-radius: 10px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
+    .pre-card{
+        margin: 20px 10px 0px 0px;
+        padding: 10px 6px 6px 6px;
+        background-color: #0B57CF;
+        border-radius: 20px;
+    }
+    .card-view{
+        margin: 20px 0px 0px 0px;
+        padding: 17px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
+    }
     .providing{
         display: flex;
         align-items:center;
         font-size: 1.1rem;
         font-size: 300;
-        color: #FFF;
+        color: #0C1F26;
         text-decoration: none; /*#0C1F26*/
     }
     .padding{
@@ -301,7 +322,7 @@ textarea::-webkit-scrollbar-thumb {
     .sub-text{
         font-size: 1.3rem;
         font-weight: 700;
-        color: #fff;
+        color: #0C1F26;
         /* opacity: 0.7; */
     }
     .icon{
@@ -321,7 +342,7 @@ textarea::-webkit-scrollbar-thumb {
         font-size: 1.1rem;
         font-size: 300;
         text-decoration: none;
-        color: #fff; /*#0C1F26*/
+        color: #0C1F26;
     }
     .icon-arrow{
         margin-right: 10px;
@@ -428,11 +449,18 @@ textarea::-webkit-scrollbar-thumb {
         display: grid;
         grid-template-columns: auto auto;
     }
+    .pre-card{
+        margin: 20px 10px 0px 0px;
+        padding: 10px 6px 6px 6px;
+        background-color: #1920D1;
+        border-radius: 20px;
+    }
     .card-view{
-        margin: 20px 10px 5px 10px;
-        padding: 20px;
-        background-color: #0C1F26;
-        border-radius: 10px;
+        margin: 20px 0px 0px 0px;
+        padding: 17px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         /* box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px; */
     }
     .providing{
@@ -440,7 +468,7 @@ textarea::-webkit-scrollbar-thumb {
         align-items:center;
         font-size: 1.1rem;
         font-size: 300;
-        color: #FFF;
+        color: #0C1F26;
         text-decoration: none; /*#0C1F26*/
     }
     .padding{
@@ -449,7 +477,7 @@ textarea::-webkit-scrollbar-thumb {
     .sub-text{
         font-size: 1.3rem;
         font-weight: 700;
-        color: #fff;
+        color: #0C1F26;
         /* opacity: 0.7; */
     }
     .icon{
@@ -469,7 +497,7 @@ textarea::-webkit-scrollbar-thumb {
         font-size: 1.1rem;
         font-size: 300;
         text-decoration: none;
-        color: #fff; /*#0C1F26*/
+        color: #0C1F26;
     }
     .icon-arrow{
         margin-right: 10px;
