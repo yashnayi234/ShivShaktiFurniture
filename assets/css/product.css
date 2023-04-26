@@ -1166,10 +1166,10 @@ body::-webkit-scrollbar-thumb {
         background-color: #F07C00;
     } */
     .product-grid{
-        margin: 0px 10px 20px 10px;
+        margin: 0px 5px 5px 5px;
         display: grid;
         grid-template-columns: auto auto;
-        column-gap: 5px;
+        column-gap: 0px;
         row-gap: 0px;
         align-items: flex-start;
         justify-content: space-between;
@@ -1180,9 +1180,9 @@ body::-webkit-scrollbar-thumb {
     }
     .product-card{
         /* margin-left: 40%; */
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 10px;
-        width: 175px;
+        width: 180px;
         /* height: 190px; */
         /* background-color: #f9f8f8; */
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
