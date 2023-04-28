@@ -697,7 +697,7 @@ img.landing-img {
         border-radius: 30px;
         transition: all 0.5s ease;
     }
-
+    
     .product-img:hover img{
         transform: scale(1.2);
         transition: all 0.5s ease;
