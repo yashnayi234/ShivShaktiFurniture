@@ -1068,7 +1068,7 @@ body::-webkit-scrollbar-thumb {
     }
     .product-card{
         position: relative;
-        margin: 10px;
+        margin: 10px 2px 0px 2px;
         width: auto;
         height: 220px;
         cursor: pointer;
@@ -1096,12 +1096,12 @@ body::-webkit-scrollbar-thumb {
     .product-name{
         margin-top: 40px;
         font-size: 1.1rem;
-        font-weight: 200;
+        font-weight: 300;
         color: #FFF;
     }
     .product-price{
         font-size: 1.1rem;
-        font-weight: 500;
+        font-weight: 600;
         color: #FFF;
     }
     .product-hover:hover{
