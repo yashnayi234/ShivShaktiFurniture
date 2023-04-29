@@ -520,8 +520,8 @@ body::-webkit-scrollbar-thumb {
 	}
     .catalog-tab{
         position: fixed;
-        z-index: 3;
-		top: 70px;
+        z-index: 1;
+		top: 30px;
         left: -300px;
         right: 40px;
 		width: 270px;
