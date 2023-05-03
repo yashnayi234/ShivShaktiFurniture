@@ -1112,10 +1112,10 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease-in-out;
     }
     .square-card{
-        margin: 5px 10px 0 0px;
+        margin: 10px 10px 0 10px;
         padding: 30px;
         height: 110px;
-        width: 100%;
+        width: 95%;
         align-items: center;
         background: #0C1F26; 
         /* border-radius: 20px; */
