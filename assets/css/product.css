@@ -621,7 +621,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;/*65%;*/
         display: flex;
         justify-content: space-around;
-        background-image: linear-gradient(to left,#0C1F26, #5B6569); 
+        background-image: linear-gradient(to left,#0C1F26, #303030); /*5B6569*/ 
         /* border-radius: 20px; */
         transition: all .5s ease;
     }
@@ -768,7 +768,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;/*65%; */
         display: flex;
         justify-content: space-around;
-        background-image: linear-gradient(to left,#0C1F26, #5B6569); 
+        background-image: linear-gradient(to left,#0C1F26, #303030); 
         /* border-radius: 20px; */
         transition: all .5s ease;
     }
@@ -916,7 +916,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        background-image: linear-gradient(to left,#0C1F26, #5B6569); 
+        background-image: linear-gradient(to left,#0C1F26, #303030); 
         /* border-radius: 20px; */
         transition: all .5s ease;
     }
@@ -1063,7 +1063,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         display: block;
         justify-content: space-around;
-        background-image: linear-gradient(to left,#0C1F26, #5B6569); 
+        background-image: linear-gradient(to left,#0C1F26, #303030); 
         /* border-radius: 20px; */
         transition: all .5s ease;
     }
