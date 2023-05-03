@@ -616,17 +616,17 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 20px auto 0px auto;
-        height: 230px;
-        width: 65%;
+        /* margin: 20px auto 0px auto; */
+        height: 300px;
+        width: 100%;/*65%;*/
         display: flex;
         justify-content: space-around;
         background-image: linear-gradient(to left,#0C1F26, #5B6569); 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .card-light-text{
-        margin: 40px 0 0 30px;
+        margin: 70px 0 0 30px;
         font-weight: 300;
         font-size: .9rem;
         color: #FFF;
@@ -667,12 +667,12 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease-in-out;
     }
     .square-card{
-        margin: 20px 20px 0 0px;
+        /* margin: 20px 20px 0 0px; */
         padding: 30px;
-        height: 230px;
+        height: 300px;
         width: 30%;
         background: #0C1F26; 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .square-head-text{
@@ -712,7 +712,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: 250px;
         aspect-ratio: 16/9;
-        border-radius: 20px;
+        /* border-radius: 20px; */
     }
     .product-details{
         position: absolute;
@@ -723,8 +723,8 @@ body::-webkit-scrollbar-thumb {
         right: 0;
         left: 0;
         padding: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        /* border-bottom-left-radius: 20px; */
+        /* border-bottom-right-radius: 20px; */
         background:linear-gradient( rgba(217, 217, 217, 0.0), rgb(0, 0, 0)); /*rgba(12, 31, 38, 1)*/
     }
     .product-name{
@@ -763,17 +763,17 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 20px auto 0px auto;
-        height: 230px;
-        width: 65%;
+        /* margin: 20px auto 0px auto; */
+        height: 300px;
+        width: 100%;/*65%; */
         display: flex;
         justify-content: space-around;
         background-image: linear-gradient(to left,#0C1F26, #5B6569); 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .card-light-text{
-        margin: 40px 0 0 30px;
+        margin: 80px 0 0 30px;
         font-weight: 300;
         font-size: .9rem;
         color: #FFF;
@@ -799,6 +799,7 @@ body::-webkit-scrollbar-thumb {
         background: rgba(255, 255,255, .1);
     }
     .card-img img{
+        margin-top: 30px;
         height: 70%;
         width: auto;
         -webkit-transform: perspective(1px) translateZ(0);
@@ -814,12 +815,12 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease-in-out;
     }
     .square-card{
-        margin: 20px auto 0px auto;
+        /* margin: 20px auto 0px auto; */
         padding: 30px;
-        height: 230px;
+        height: 300px;
         width: 30%;
         background: #0C1F26; 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .square-head-text{
@@ -859,7 +860,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: 220px;
         aspect-ratio: 16/9;
-        border-radius: 20px;
+        /* border-radius: 20px; */
     }
     .product-details{
         position: absolute;
@@ -870,8 +871,8 @@ body::-webkit-scrollbar-thumb {
         right: 0;
         left: 0;
         padding: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        /* border-bottom-left-radius: 20px; */
+        /* border-bottom-right-radius: 20px; */
         background:linear-gradient( rgba(217, 217, 217, 0.1), rgba(12, 31, 38, 1));
     }
     .product-name{
@@ -910,17 +911,17 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 20px auto 0px auto;
-        height: 210px;
-        width: 95%;
+        /* margin: 20px auto 0px auto; */
+        height: 250px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         background-image: linear-gradient(to left,#0C1F26, #5B6569); 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .card-light-text{
-        margin: 40px 0 0 30px;
+        margin: 70px 0 0 30px;
         font-weight: 300;
         font-size: .9rem;
         color: #FFF;
@@ -928,7 +929,7 @@ body::-webkit-scrollbar-thumb {
     .card-head-text{
         margin: 10px 0 0 30px;
         font-weight: 700;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         color: #FFF;
     }
     .card-tags{
@@ -961,12 +962,12 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease-in-out;
     }
     .square-card{
-        margin: 20px auto 0px auto;
+        /* margin: 20px auto 0px auto; */
         padding: 30px;
         height: 120px;
-        width: 95%;
+        width: 100%;
         background: #0C1F26; 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .square-head-text{
@@ -1005,7 +1006,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: 220px;
         aspect-ratio: 16/9;
-        border-radius: 20px;
+        /* border-radius: 20px; */
     }
     .product-details{
         position: absolute;
@@ -1016,8 +1017,8 @@ body::-webkit-scrollbar-thumb {
         right: 0;
         left: 0;
         padding: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        /* border-bottom-left-radius: 20px; */
+        /* border-bottom-right-radius: 20px; */
         background:linear-gradient( rgba(217, 217, 217, 0.1), rgba(12, 31, 38, 1));
     }
     .product-name{
@@ -1057,13 +1058,13 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 90px 10px 0px 10px;
+        margin: 80px 0px 0px 0px;
         /* height: 180px; */
-        width: 95%;
+        width: 100%;
         display: block;
         justify-content: space-around;
         background-image: linear-gradient(to left,#0C1F26, #5B6569); 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .display-text{
@@ -1078,7 +1079,7 @@ body::-webkit-scrollbar-thumb {
     .card-head-text{
         margin: 10px 0 0 25px;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         color: #FFF;
     }
     .card-tags{
@@ -1111,13 +1112,13 @@ body::-webkit-scrollbar-thumb {
         transition: all .5s ease-in-out;
     }
     .square-card{
-        margin: 10px 10px 0 10px;
+        margin: 5px 10px 0 0px;
         padding: 30px;
         height: 110px;
-        width: 95%;
+        width: 100%;
         align-items: center;
         background: #0C1F26; 
-        border-radius: 20px;
+        /* border-radius: 20px; */
         transition: all .5s ease;
     }
     .square-head-text{
@@ -1156,7 +1157,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: 220px;
         aspect-ratio: 16/9;
-        border-radius: 20px;
+        /* border-radius: 20px; */
     }
     .product-details{
         position: absolute;
@@ -1167,8 +1168,8 @@ body::-webkit-scrollbar-thumb {
         right: 0;
         left: 0;
         padding: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        /* border-bottom-left-radius: 20px; */
+        /* border-bottom-right-radius: 20px; */
         background:linear-gradient( rgba(217, 217, 217, 0.1), rgba(12, 31, 38, 1));
     }
     .product-name{
