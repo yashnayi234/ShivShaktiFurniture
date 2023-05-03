@@ -143,6 +143,12 @@ textarea::-webkit-scrollbar-thumb {
         border-radius: 20px;
     }
     .card-view{
+        margin: 20px 10px 0px 10px;
+        background-color: rgba(27, 108, 141, 0.15);
+        padding: 17px;
+        border-radius: 15px;
+    }
+    .profile-card-view{
         margin: 20px 0px 0px 0px;
         padding: 17px;
         background-color: #fff;
@@ -301,6 +307,12 @@ textarea::-webkit-scrollbar-thumb {
         border-radius: 20px;
     }
     .card-view{
+        margin: 20px 10px 0px 10px;
+        background-color: rgba(27, 108, 141, 0.15);
+        padding: 17px;
+        border-radius: 15px;
+    }
+    .profile-card-view{
         margin: 20px 0px 0px 0px;
         padding: 17px;
         background-color: #fff;
@@ -456,6 +468,12 @@ textarea::-webkit-scrollbar-thumb {
         border-radius: 20px;
     }
     .card-view{
+        margin: 20px 10px 0px 10px;
+        background-color: rgba(27, 108, 141, 0.15);
+        padding: 17px;
+        border-radius: 15px;
+    }
+    .profile-card-view{
         margin: 20px 0px 0px 0px;
         padding: 17px;
         background-color: #fff;
@@ -614,6 +632,12 @@ textarea::-webkit-scrollbar-thumb {
         border-radius: 20px;
     }
     .card-view{
+        margin: 20px 10px 0px 10px;
+        background-color: rgba(27, 108, 141, 0.15);
+        padding: 17px;
+        border-radius: 15px;
+    }
+    .profile-card-view{
         margin: 20px 0px 0px 0px;
         padding: 17px;
         background-color: #fff;
