@@ -1058,7 +1058,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
     }
     .decorated-card{
-        margin: 80px 0px 0px 0px;
+        margin: 70px 0px 0px 0px;
         /* height: 180px; */
         width: 100%;
         display: block;
