@@ -734,6 +734,52 @@ body::-webkit-scrollbar-thumb {
 		font-size: 0.85rem;
 	}
 }
+
+/* Mobile responsive styles for content-home section */
+@media (max-width: 768px) {
+	.content-home {
+		padding: 0 20px;
+		align-items: flex-start;
+		padding-top: 20vh;
+	}
+	
+	.glass-container {
+		padding: 20px;
+	}
+	
+	.glass-container .ssf-tag-line {
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+	
+	.glass-container .heavy-text {
+		font-size: 40px;
+		margin-top: 15px;
+		line-height: 1.1;
+	}
+}
+
+@media (max-width: 480px) {
+	.content-home {
+		padding: 0 15px;
+		padding-top: 15vh;
+	}
+	
+	.glass-container {
+		padding: 15px;
+	}
+	
+	.glass-container .ssf-tag-line {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	
+	.glass-container .heavy-text {
+		font-size: 32px;
+		margin-top: 10px;
+		line-height: 1.1;
+	}
+}
 /*.heavy-text:hover{
 	-webkit-text-fill-color:transparent;
 	-webkit-text-stroke: 1px #FFAF03;
