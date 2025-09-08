@@ -14,41 +14,108 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Namdhinggo:wght@400;500;600;700;800&family=Noto+Sans+Meetei+Mayek:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/iconsax@1.0.0/dist/iconsax.min.css">
 <!--Get your own code at fontawesome.com-->
     <script type="application/javascript" src="assets/js/preloader.js"></script>
+    <script type="application/javascript" src="assets/js/dynamic-navbar.js"></script>
 
 </head>
 <body>
     <div id="content">
         <div class="main-container">
             <header class="header-bar" id="header-bar">
-                <a href="#" class="logo"><img src="assets/img/ssf-1080x400.png" alt="NOT FOUNT"></a>
-                <div class= "menu-icon-nav">
+                <a href="#" class="logo">
+                    <span class="logo-text">Shiv Shakti Furniture</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-center">
                     <ul class="navbar">
                         <li><a href="home.html" class="nav-item active">Home</a></li>
                         <li><a href="sofa.html" class="nav-item">Products</a></li>
-                        <li><a href="onlinesale.html" class="nav-item">Online Sale</a></li>
+                        <li><a href="onlinesale.html" class="nav-item">Collections</a></li>
                         <li><a href="aboutus.html" class="nav-item">About Us</a></li>
                         <li><a href="contactus.html" class="nav-item">Contact Us</a></li>
-            <!--				<li><a href="#" class="nav-item">About Us</a></li>-->
                     </ul>
-                    <div class="menu-btn">
-                        <div class="menu-btn__burger"></div>
+                </div>
+                
+                <!-- Desktop Icons -->
+                <div class="nav-right">
+                    <div class="social-icons">
+                        <a href="#" class="icon-link" title="Search">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="#" class="icon-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="icon-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobile-menu-btn">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+                
+                <!-- Mobile Navigation -->
+                <div class="mobile-nav" id="mobile-nav">
+                    <ul class="mobile-navbar">
+                        <li><a href="home.html" class="mobile-nav-item active">Home</a></li>
+                        <li><a href="sofa.html" class="mobile-nav-item">Products</a></li>
+                        <li><a href="onlinesale.html" class="mobile-nav-item">Online Sale</a></li>
+                        <li><a href="aboutus.html" class="mobile-nav-item">About Us</a></li>
+                        <li><a href="contactus.html" class="mobile-nav-item">Contact Us</a></li>
+                    </ul>
+                    <div class="mobile-social-icons">
+                        <a href="#" class="mobile-icon-link">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="#" class="mobile-icon-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="mobile-icon-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
-                <script type="application/javascript" src="assets/js/menu.js"></script>
             </header>
             <div class="content-home">
-                <div class="row-line">
-                    <div class="content-left">
+                <div class="content-left">
+                    <div class="glass-container">
                         <p class="ssf-tag-line">Making Various Customise Furniture</p>
-                        <p class="heavy-text">Live<br><span class="light-text">with </span>design &<br> innovation.</p>
-                        <p class="quote-line">Let us bring your dream home to life with our expertly crafted furniture. <br>Contact us today!</p>
+                        <p class="heavy-text">Live<span class="light-text"> with </span>design innovation.</p>
+                        <!-- <p class="quote-line">Let us bring your dream home to life with our expertly crafted furniture. <br>Contact us today!</p> -->
                     </div>
-                    <div class="content-right">
-                        <div class="landing-img-blur">
-                            <img class="landing-img" src="assets/img/home-index.png" alt="Not Found" width="auto" height="auto">
+                </div>
+            </div>
+            
+            <!-- Taglines Section -->
+            <div class="taglines-section">
+                <div class="taglines-container">
+                    <div class="tagline-card" data-tagline="1">
+                        <div class="tagline-content">
+                            <h3 class="tagline-text">Crafting Comfort, Building Trust.</h3>
+                            <div class="tagline-border"></div>
+                        </div>
+                    </div>
+                    <div class="tagline-card" data-tagline="2">
+                        <div class="tagline-content">
+                            <h3 class="tagline-text">Elegant Furniture, Made to Last.</h3>
+                            <div class="tagline-border"></div>
+                        </div>
+                    </div>
+                    <div class="tagline-card" data-tagline="3">
+                        <div class="tagline-content">
+                            <h3 class="tagline-text">Transform Your Home with Timeless Designs.</h3>
+                            <div class="tagline-border"></div>
                         </div>
                     </div>
                 </div>
@@ -80,106 +147,233 @@
             <!-- <hr class="hr-line"> -->
         </div>
         
-        <div class="content-featured">
-            <div class="featured-decoration">
-                <div class="fade-line-1"></div>
-                <p class="featured-text">featured</p>
-                <div class="fade-line-2"></div>
-            </div>
-            <div class="row-featured-content">
-                <div class="products-slides">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img class="product-view-img" src="assets/img/products/product-wooden.png" alt="not Found">
-                        </div>
-                        <div class="overlay-content">
-                            <div class="linear-gradient">
-                                <div class="btn-content">
-                                    <a href="">Royal Chair</p>
-                                </div>
+        <div class="content-new-arrivals">
+            <div class="new-arrivals-container">
+                <div class="new-arrivals-info">
+                    <h2 class="new-arrivals-subtitle">New Arrival</h2>
+                    <h3 class="new-arrivals-title">Discover Our<br>Latest Arrivals</h3>
+                    <p class="new-arrivals-description">Exciting new furniture is here! Don't miss out on the newest trends and unique pieces added to our collection. Shop the latest now.</p>
+                    <button class="new-arrivals-btn">
+                        <span>See All Products</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                
+                <div class="new-arrivals-carousel">
+                    <div class="product-card" data-product="1" style="background-image: url('assets/img/products/home-products/chair-1.jpg');">
+                        <div class="product-badge">Sale</div>
+                        <button class="wishlist-icon">
+                            <i class="icon-heart"></i>
+                        </button>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">Modern Chair</h4>
+                                <div class="product-price">$320</div>
                             </div>
+                            <button class="product-nav-btn">
+                                <i class="icon-arrow-right"></i>
+                            </button>
                         </div>
                     </div>
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="assets/img/products/product-table.png" alt="not Found">
-                        </div>
-                        <div class="overlay-content">
-                            <div class="linear-gradient">
-                                <div class="btn-content">
-                                    <a href="">dinning table</p>
-                                </div>
+                    
+                    <div class="product-card" data-product="2" style="background-image: url('assets/img/products/home-products/chair-2.jpg');">
+                        <div class="product-badge discount">-24%</div>
+                        <button class="wishlist-icon">
+                            <i class="icon-heart"></i>
+                        </button>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">Luxury Armchair</h4>
+                                <div class="product-price">$410</div>
                             </div>
+                            <button class="product-nav-btn">
+                                <i class="icon-arrow-right"></i>
+                            </button>
                         </div>
                     </div>
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="assets/img/products/product-sofa.png" alt="not Found">
-                        </div>
-                        <div class="overlay-content">
-                            <div class="linear-gradient">
-                                <div class="btn-content">
-                                    <a href="">morden sofa</p>
-                                </div>
+                    
+                    <div class="product-card" data-product="3" style="background-image: url('assets/img/products/home-products/chair-3.jpg');">
+                        <div class="product-badge">Sale</div>
+                        <button class="wishlist-icon">
+                            <i class="icon-heart"></i>
+                        </button>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">Designer Chair</h4>
+                                <div class="product-price">$1020</div>
                             </div>
+                            <button class="product-nav-btn">
+                                <i class="icon-arrow-right"></i>
+                            </button>
                         </div>
                     </div>
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="assets/img/products/product-chair.png" alt="not Found">
-                        </div>
-                        <div class="overlay-content">
-                            <div class="linear-gradient">
-                                <div class="btn-content">
-                                    <a href="">office Chair</p>
-                                </div>
+                    
+                    <div class="product-card" data-product="4" style="background-image: url('assets/img/products/home-products/chair-4.jpg');">
+                        <div class="product-badge">Sale</div>
+                        <button class="wishlist-icon">
+                            <i class="icon-heart"></i>
+                        </button>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">Modern Sofa</h4>
+                                <div class="product-price">$1,250</div>
                             </div>
+                            <button class="product-nav-btn">
+                                <i class="icon-arrow-right"></i>
+                            </button>
                         </div>
                     </div>
+                    
+                    <div class="product-card" data-product="5" style="background-image: url('assets/img/products/home-products/chair-5.jpg');">
+                        <div class="product-badge discount">-15%</div>
+                        <button class="wishlist-icon">
+                            <i class="icon-heart"></i>
+                        </button>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">Office Chair</h4>
+                                <div class="product-price">$890</div>
+                            </div>
+                            <button class="product-nav-btn">
+                                <i class="icon-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" data-product="6" style="background-image: url('assets/img/products/home-products/chair-6.jpg');">
+                        <div class="product-badge">New</div>
+                        <button class="wishlist-icon">
+                            <i class="icon-heart"></i>
+                        </button>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">Rocking Chair</h4>
+                                <div class="product-price">$650</div>
+                            </div>
+                            <button class="product-nav-btn">
+                                <i class="icon-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" data-product="7" style="background-image: url('assets/img/products/home-products/chair-7.jpg');">
+                        <div class="product-badge discount">-30%</div>
+                        <button class="wishlist-icon">
+                            <i class="icon-heart"></i>
+                        </button>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">Orange Chair</h4>
+                                <div class="product-price">$450</div>
+                            </div>
+                            <button class="product-nav-btn">
+                                <i class="icon-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-        <div class="btn-see-more"><a href="sofa.html">see more to shop</a></div>
     
-        <div class="content-trending-item">
-            <p class="head-text">Trending item <span class="head-light-text">designed by </span><br>SSF for peace of mind</p>
-            <div class="row-trending-item">
-                <div class="banner-card">
-                    <img class="banner-img" src="assets/img/trending-items/product-brown-sofa.png">
-                    <div class="overlay-text">
-                        <h2 class="banner-text">Morden Sofa</h2>
-                        <p class="banner-price">starting from <strong>₹ 50,000</strong></p>
+        <div class="content-categories">
+            <div class="categories-header">
+                <h2 class="categories-subtitle">Shop by Category</h2>
+                <h3 class="categories-title">Find What You Need</h3>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card" data-category="bedroom">
+                    <div class="category-image-container">
+                        <img class="category-image" src="assets/img/categories/bedroom.jpg" alt="Bedroom Furniture">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-bed"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-name">Bedroom</h4>
+                        <p class="category-count">16 Products</p>
                     </div>
                 </div>
-                <div class="grid-view-item">
-                    <div class="semi-row-items">
-                        <div class="item-card">
-                            <img class="item-img" src="assets/img/trending-items/product-classic-bedroom.png">
-                            <p class="item-name">classic bedroom set</p>
-                            <p class="item-price">starting from <strong>₹ 50,000</strong></p>
-                        </div>
-                        <div class="item-card">
-                            <img class="item-img" src="assets/img/trending-items/product-modern-chair.png">
-                            <p class="item-name">morden chair</p>
-                            <p class="item-price">starting from <strong>₹ 18,000</strong></p>
+                
+                <div class="category-card" data-category="bathroom">
+                    <div class="category-image-container">
+                        <img class="category-image" src="assets/img/categories/bathroom.jpg" alt="Bathroom Furniture">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-bath"></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="semi-row-items">
-                        <div class="item-card">
-                            <img class="item-img" src="assets/img/trending-items/product-outdoor-chair.png">
-                            <p class="item-name">outdoor chair</p>
-                            <p class="item-price">starting from <strong>₹ 25,000</strong></p>
+                    <div class="category-info">
+                        <h4 class="category-name">Bathroom</h4>
+                        <p class="category-count">8 Products</p>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="dining">
+                    <div class="category-image-container">
+                        <img class="category-image" src="assets/img/categories/dining.jpg" alt="Dining Room Furniture">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
                         </div>
-                        <div class="item-card">
-                            <img class="item-img" src="assets/img/trending-items/wooden-vase-chair-luxury-white_1.png">
-                            <p class="item-name">wooden vase chair</p>
-                            <p class="item-price">starting from <strong>₹ 18,000</strong></p>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-name">Dining Room</h4>
+                        <p class="category-count">7 Products</p>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="chair">
+                    <div class="category-image-container">
+                        <img class="category-image" src="assets/img/categories/chair.jpg" alt="Chairs">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-chair"></i>
+                            </div>
                         </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-name">Chair</h4>
+                        <p class="category-count">24 Products</p>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="sofa">
+                    <div class="category-image-container">
+                        <img class="category-image" src="assets/img/categories/sofa.jpg" alt="Sofas">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-couch"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-name">Sofa</h4>
+                        <p class="category-count">14 Products</p>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="kitchen">
+                    <div class="category-image-container">
+                        <img class="category-image" src="assets/img/categories/kitchen.jpg" alt="Kitchen Furniture">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-kitchen-set"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-name">Kitchen</h4>
+                        <p class="category-count">12 Products</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="btn-see-more"><a href="sofa.html">see more to shop</a></div>
         
         <div class="content-quality-and-design">
             <div class="row-quality-and-design">
