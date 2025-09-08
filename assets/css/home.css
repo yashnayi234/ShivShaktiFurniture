@@ -282,6 +282,8 @@ body {
 @media (max-width: 768px) {
     .header-bar {
         padding: 15px 20px;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     
     .nav-center {
@@ -307,9 +309,9 @@ body {
 
 @media (max-width: 480px) {
     .header-bar {
-        width: 98%;
-        left: 1%;
-        right: 1%;
+        width: 92%;
+        left: 4%;
+        right: 4%;
         padding: 10px 15px;
     }
     
