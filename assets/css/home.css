@@ -1443,6 +1443,46 @@ body::-webkit-scrollbar-thumb {
     transform: scale(1.1);
 }
 
+.icon-heart {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.icon-heart::before {
+    content: '\f004';
+    font-style: normal;
+}
+
+.icon-arrow-right {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.icon-arrow-right::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    border-radius: 1px;
+    font-style: normal;
+}
+
 .product-info {
     position: absolute;
     bottom: 0;
@@ -1610,7 +1650,7 @@ body::-webkit-scrollbar-thumb {
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 40px;
+    gap: 0%;
     max-width: auto;
     margin: 0 auto;
     margin-left: 1%;
@@ -2105,8 +2145,8 @@ img.landing-img {
 @media (min-width: 1080px) and (max-width: 1980px){
     .content-service{
         margin-top: 90px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .row-service-content{
         display: flex;
@@ -2140,8 +2180,8 @@ img.landing-img {
 @media (min-width: 769px) and (max-width: 1079px){
    .content-service{
         margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
        transition: all 1s ease;
     }
     .row-service-content{
@@ -4209,10 +4249,26 @@ img.landing-img {
 /*================================== End content footer =========================================*/
 
 /* Desktop Service Section */
+.service-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #2C1810;
+    text-align: center;
+}
+
+.service-description {
+    font-size: 1.15rem;
+    color: #666;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+}
+
 .service-section {
     width: 80%;
-    margin: 40px auto 0 auto;
-    background: rgba(255, 255, 255, 0.85);
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 32px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
     padding: 48px 32px;
@@ -4221,33 +4277,21 @@ img.landing-img {
     align-items: center;
 }
 
-.service-title {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 18px;
-    color: #222;
-}
-
-.service-description {
-    font-size: 1.15rem;
-    color: #444;
-    text-align: center;
-    max-width: 600px;
-    margin-bottom: 32px;
-}
-
 .service-features {
     display: flex;
-    gap: 40px;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .service-feature {
-    flex: 1 1 180px;
-    min-width: 180px;
-    max-width: 220px;
     text-align: center;
+    padding: 15px;
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
 }
 
 .service-icon-container {
@@ -4270,12 +4314,14 @@ img.landing-img {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 6px;
+    color: #ffffff;
 }
 
 .service-feature p {
     font-size: 0.98rem;
-    color: #666;
+    color: #ffffff;
 }
+
 
 /* Mobile Service Section */
 .mobile-service-container {
@@ -4383,5 +4429,34 @@ img.landing-img {
     
     .service-divider {
         margin-top: 15px;
+    }
+}
+
+/* Responsive design for service features */
+@media (max-width: 1024px) {
+    .service-features {
+        gap: 15px;
+    }
+    
+    .service-feature {
+        min-width: 180px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-features {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .service-feature {
+        min-width: auto;
+        max-width: none;
+        padding: 15px;
+    }
+    
+    .service-divider {
+        display: none;
     }
 }
