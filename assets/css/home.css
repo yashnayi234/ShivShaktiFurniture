@@ -1586,6 +1586,9 @@ body::-webkit-scrollbar-thumb {
     .new-arrivals-carousel {
         gap: 15px;
         margin-right: -80px;
+        padding-left: 10px;
+        margin-left: -20px;
+
     }
     
   .product-card {
@@ -1612,6 +1615,8 @@ body::-webkit-scrollbar-thumb {
     .new-arrivals-carousel {
         gap: 10px;
         margin-right: -80px;
+        padding-left: 10px;
+        margin-left: -20px;
     }
     
     .product-card {
