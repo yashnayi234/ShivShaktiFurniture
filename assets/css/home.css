@@ -1606,6 +1606,10 @@ body::-webkit-scrollbar-thumb {
         font-size: 0.9rem;
         margin: 0 auto;
     }
+
+    .new-arrivals-carousel {
+        gap: 10px;
+    }
     
     .product-card {
         min-width: 220px;
