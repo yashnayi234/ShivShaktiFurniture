@@ -15,7 +15,7 @@ body {
 	font-family: 'Montserrat', 'Noto Sans', 'Encode Sans Expanded', 'Sansation', sans-serif;
 }
 .main-container{
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 	overflow-x: hidden;
 	background-image: url('../img/products/home-products/home-11.jpg');
@@ -1623,10 +1623,10 @@ body::-webkit-scrollbar-thumb {
 
 /* Categories Section - Shop by Category */
 .content-categories {
-    padding: 100px 0;
+    padding: 120px 0 100px 0;
     background: #fff;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .categories-header {
@@ -1783,7 +1783,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px) {
     .content-categories {
-        padding: 60px 0;
+        padding: 80px 0 60px 0;
     }
     
     .categories-title {
@@ -1827,6 +1827,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 480px) {
+    .content-categories {
+        padding: 70px 0 50px 0;
+    }
+    
     .categories-title {
         font-size: 1.8rem;
     }
@@ -1875,7 +1879,7 @@ body::-webkit-scrollbar-thumb {
 /* Additional mobile horizontal scroll enhancements */
 @media (max-width: 768px) {
     .content-categories {
-        overflow-x: hidden;
+        overflow: visible;
     }
     
     .categories-grid {
