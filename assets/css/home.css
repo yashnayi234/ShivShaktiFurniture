@@ -1288,7 +1288,7 @@ body::-webkit-scrollbar-thumb {
 
 /* New Arrivals Section */
 .content-new-arrivals {
-    padding: 10px 0;
+    padding: 0px 0;
     background: #fff;
     position: relative;
     overflow: hidden;
@@ -1365,6 +1365,7 @@ body::-webkit-scrollbar-thumb {
     gap: 25px;
     overflow-x: auto;
     padding: 10px 0;
+    margin-right: -80px;
     scroll-behavior: smooth;
 }
 
@@ -1584,6 +1585,7 @@ body::-webkit-scrollbar-thumb {
     
     .new-arrivals-carousel {
         gap: 15px;
+        margin-right: -80px;
     }
     
   .product-card {
@@ -1609,6 +1611,7 @@ body::-webkit-scrollbar-thumb {
 
     .new-arrivals-carousel {
         gap: 10px;
+        margin-right: -80px;
     }
     
     .product-card {
