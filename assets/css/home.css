@@ -11,6 +11,13 @@
 	/* overflow-x: hidden; */
 }
 
+@media (max-width: 480px) {
+    .service-description {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
 body {
 	font-family: 'Montserrat', 'Noto Sans', 'Encode Sans Expanded', 'Sansation', sans-serif;
 }
