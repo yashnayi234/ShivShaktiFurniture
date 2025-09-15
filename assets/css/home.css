@@ -4474,28 +4474,15 @@ img.landing-img {
         font-size: 2.5rem;
     }
     
-    .service-section {
-        width: 95%;
-        padding: 30px 20px;
-    }
-    
     .service-features {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        flex-direction: column;
         gap: 20px;
-        width: 100%;
-        max-width: 100%;
     }
     
     .service-feature {
         min-width: auto;
         max-width: none;
         padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
     }
     
     .service-divider {
@@ -4506,38 +4493,5 @@ img.landing-img {
 @media (max-width: 480px) {
     .service-title {
         font-size: 1.8rem;
-    }
-    
-    .service-section {
-        width: 98%;
-        padding: 25px 15px;
-    }
-    
-    .service-features {
-        gap: 15px;
-    }
-    
-    .service-feature {
-        padding: 12px;
-    }
-    
-    .service-feature h4 {
-        font-size: 1rem;
-        margin-bottom: 5px;
-    }
-    
-    .service-feature p {
-        font-size: 0.875rem;
-        line-height: 1.4;
-    }
-    
-    .service-icon-container {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 8px;
-    }
-    
-    .service-icon-container i {
-        font-size: 1.2rem;
     }
 }
