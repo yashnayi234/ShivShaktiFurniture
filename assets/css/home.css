@@ -633,7 +633,7 @@ body::-webkit-scrollbar-thumb {
 /* Text styles for glass container */
 .glass-container .ssf-tag-line {
 	color: #fff;
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-weight: 100;
 	font-family: 'Montserrat', 'Noto Sans', 'Encode Sans Expanded', 'Sansation', sans-serif;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -644,7 +644,7 @@ body::-webkit-scrollbar-thumb {
 	margin-top: 20px;
 	color: #fff;
 	font-weight: 800;
-	font-size: 60px;
+	font-size: 3.75rem;
 	font-family: 'Montserrat', 'Noto Sans', 'Encode Sans Expanded', 'Sansation', sans-serif;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 	line-height: 1.2;
@@ -872,12 +872,12 @@ body::-webkit-scrollbar-thumb {
 	}
 	
 	.glass-container .ssf-tag-line {
-		font-size: 24px;
+		font-size: 1.5rem;
 		margin-bottom: 15px;
 	}
 	
 	.glass-container .heavy-text {
-		font-size: 40px;
+		font-size: 2.5rem;
 		margin-top: 15px;
 		line-height: 1.1;
 	}
@@ -894,12 +894,12 @@ body::-webkit-scrollbar-thumb {
 	}
 	
 	.glass-container .ssf-tag-line {
-		font-size: 20px;
+		font-size: 1.25rem;
 		margin-bottom: 10px;
 	}
 	
 	.glass-container .heavy-text {
-		font-size: 32px;
+		font-size: 2rem;
 		margin-top: 10px;
 		line-height: 1.1;
 	}
@@ -2077,7 +2077,7 @@ img.landing-img {
 	.ssf-tag-line{
     color: #fff;
 		padding-top: 130px;
-		font-size: 20px auto;
+		font-size: 1.25rem;
 		font-weight: 100;
 		transition: all 1s ease-in;
 	}
@@ -2085,7 +2085,7 @@ img.landing-img {
 		margin-top: 30px;
 		color: #fff;
 		font-weight: 800;
-		font-size: 50px;
+		font-size: 3.125rem;
 		transition: all 1s ease;
 	}
 	.light-text{
@@ -2127,9 +2127,9 @@ img.landing-img {
 		justify-content: space-around;
 	}
 	.ssf-tag-line{
-		color: #fff;
+    color: #fff;
 		padding-top: 130px;
-		font-size: 20px auto;
+		font-size: 1.25rem;
 		font-weight: 100;
 		transition: all 1s ease-in;
 	}
@@ -2137,7 +2137,7 @@ img.landing-img {
 		margin-top: 30px;
 		color: #fff;
 		font-weight: 800;
-		font-size: 47px;
+		font-size: 2.9375rem;
 		transition: all 1s ease;
 	}
 	.light-text{
@@ -2869,14 +2869,14 @@ img.landing-img {
         margin-bottom: 50px;
     }
     .head-text{
-        font-size: 50px;
+        font-size: 3.125rem;
         font-weight: 800;
         color: #0C1F26;
         text-align: center;
         margin-bottom: 40px;
     }
     .head-light-text{
-        font-size: 50px;
+        font-size: 3.125rem;
         font-weight: 200;
         color: #0C1F26;
     }
@@ -3083,14 +3083,14 @@ img.landing-img {
         overflow: hidden;
     }
     .head-text{
-        font-size: 30px;
+        font-size: 1.875rem;
         font-weight: 800;
         color: #0C1F26;
         text-align: center;
         margin-bottom: 40px;
     }
     .head-light-text{
-        font-size: 30px;
+        font-size: 1.875rem;
         font-weight: 200;
         color: #0C1F26;
     }
@@ -3189,14 +3189,14 @@ img.landing-img {
         overflow: hidden;
     }
     .head-text{
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-weight: 800;
         color: #0C1F26;
         text-align: center;
         margin-bottom: 40px;
     }
     .head-light-text{
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-weight: 200;
         color: #0C1F26;
     }
@@ -4449,7 +4449,7 @@ img.landing-img {
     }
     
     .service-text {
-        font-size: 9px;
+        font-size: 0.5625rem;
     }
     
     .service-divider {
