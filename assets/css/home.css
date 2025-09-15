@@ -2294,8 +2294,8 @@ img.landing-img {
 @media (max-width: 467px){
    .content-service{
         margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
         transition: all 1s ease;
     }
     .row-service-content{
