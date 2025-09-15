@@ -1365,6 +1365,7 @@ body::-webkit-scrollbar-thumb {
     gap: 25px;
     overflow-x: auto;
     padding: 10px 0;
+    padding-right: 70px;
     margin-right: -80px;
     scroll-behavior: smooth;
 }
@@ -1857,6 +1858,7 @@ body::-webkit-scrollbar-thumb {
         gap: 20px;
         margin-left: 5%;
         padding-top: 15px;
+        margin-left: -20px;
         overflow-x: auto;
         overflow-y: hidden;
         scroll-behavior: smooth;
