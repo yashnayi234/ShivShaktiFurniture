@@ -1331,7 +1331,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .new-arrivals-description {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     color: #666;
     line-height: 1.6;
     margin: 0 0 40px 0;
@@ -2252,8 +2252,8 @@ img.landing-img {
 @media (min-width: 468px) and (max-width: 768px){
    .content-service{
         margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
         transition: all 1s ease;
     }
     .row-service-content{
@@ -2294,8 +2294,8 @@ img.landing-img {
 @media (max-width: 467px){
    .content-service{
         margin-top: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
         transition: all 1s ease;
     }
     .row-service-content{
@@ -4476,7 +4476,7 @@ img.landing-img {
     
     .service-features {
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
     }
     
     .service-feature {
