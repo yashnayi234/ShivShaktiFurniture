@@ -2200,14 +2200,6 @@ img.landing-img {
     .description-service{
        margin-top: 10px;
     }
-    .hr-line{
-        margin-top: 50px;
-        margin-left: 20%;
-        margin-right: 20%;
-        height: 1px;
-        border: 0px;
-        background: #D6D6D6;
-    }
 }
 @media (min-width: 769px) and (max-width: 1079px){
    .content-service{
@@ -2240,14 +2232,6 @@ img.landing-img {
     .description-service{
         margin-top: 10px;
         transition: all 1s ease;
-    }
-    .hr-line{
-        margin-top: 50px;
-        margin-left: 20%;
-        margin-right: 20%;
-        height: 1px;
-        border: 0px;
-        background: #D6D6D6;
     }
     h2{
         font-size: 1.1rem;
@@ -2289,14 +2273,6 @@ img.landing-img {
         margin-top: 10px;
         transition: all 1s ease;
     }
-    .hr-line{
-        margin-top: 50px;
-        margin-left: 20%;
-        margin-right: 20%;
-        height: 1px;
-        border: 0px;
-        background: #D6D6D6;
-    }
 }
 @media (max-width: 467px){
    .content-service{
@@ -2330,14 +2306,6 @@ img.landing-img {
     .description-service{
         margin-top: 10px;
         transition: all 1s ease;
-    }
-    .hr-line{
-        margin-top: 50px;
-        margin-left: 20%;
-        margin-right: 20%;
-        height: 1px;
-        border: 0px;
-        background: #D6D6D6;
     }
 }
 
@@ -3339,7 +3307,7 @@ img.landing-img {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: linear-gradient(135deg, #2C3E50, #34495E);
+    background: linear-gradient(135deg, #2C1810, #3D2417);
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 50px;
@@ -3348,7 +3316,7 @@ img.landing-img {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 30px;
-    box-shadow: 0 8px 25px rgba(44, 62, 80, 0.3);
+    box-shadow: 0 8px 25px rgba(44, 24, 16, 0.3);
     animation: float 3s ease-in-out infinite;
 }
 
@@ -3371,7 +3339,7 @@ img.landing-img {
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #2C3E50, #34495E, #5D6D7E);
+    background: linear-gradient(135deg, #2C1810, #3D2417, #4A2C1A);
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3395,26 +3363,15 @@ img.landing-img {
 }
 
 .hero-decoration {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 40px;
+    display: none;
 }
 
 .decoration-line {
-    width: 60px;
-    height: 3px;
-    background: linear-gradient(90deg, transparent, #2C3E50, transparent);
-    border-radius: 2px;
+    display: none;
 }
 
 .decoration-dot {
-    width: 12px;
-    height: 12px;
-    background: #2C3E50;
-    border-radius: 50%;
-    animation: pulse 2s ease-in-out infinite;
+    display: none;
 }
 
 @keyframes pulse {
@@ -3474,17 +3431,17 @@ img.landing-img {
 }
 
 .premium-card .card-icon {
-    background: linear-gradient(135deg, #2C3E50, #34495E);
+    background: linear-gradient(135deg, #2C1810, #3D2417);
     color: #ffffff;
 }
 
 .design-card .card-icon {
-    background: linear-gradient(135deg, #5D6D7E, #85929E);
+    background: linear-gradient(135deg, #4A2C1A, #5D3A20);
     color: #ffffff;
 }
 
 .card-badge {
-    background: linear-gradient(135deg, #0C1F26, #2c3e50);
+    background: linear-gradient(135deg, #2C1810, #3D2417);
     color: #ffffff;
     padding: 8px 16px;
     border-radius: 20px;
@@ -3495,7 +3452,7 @@ img.landing-img {
 }
 
 .design-badge {
-    background: linear-gradient(135deg, #5D6D7E, #85929E);
+    background: linear-gradient(135deg, #4A2C1A, #5D3A20);
 }
 
 .card-content {
@@ -3515,7 +3472,7 @@ img.landing-img {
 }
 
 .highlight-text {
-    background: linear-gradient(135deg, #2C3E50, #34495E, #5D6D7E);
+    background: linear-gradient(135deg, #2C1810, #3D2417, #4A2C1A);
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3525,7 +3482,7 @@ img.landing-img {
 }
 
 .design-card .highlight-text {
-    background: linear-gradient(135deg, #85929E, #AEB6BF, #D5DBDB);
+    background: linear-gradient(135deg, #5D3A20, #6B4226, #7A4B2C);
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3656,20 +3613,20 @@ img.landing-img {
 }
 
 .card-btn:hover {
-    background: linear-gradient(135deg, #34495E, #5D6D7E);
+    background: linear-gradient(135deg, #3D2417, #4A2C1A);
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(52, 73, 94, 0.4);
+    box-shadow: 0 8px 25px rgba(61, 36, 23, 0.4);
 }
 
 .design-card .card-btn {
-    background: linear-gradient(135deg, #5D6D7E, #85929E);
+    background: linear-gradient(135deg, #4A2C1A, #5D3A20);
     color: #ffffff;
-    box-shadow: 0 4px 15px rgba(93, 109, 126, 0.3);
+    box-shadow: 0 4px 15px rgba(74, 44, 26, 0.3);
 }
 
 .design-card .card-btn:hover {
-    background: linear-gradient(135deg, #85929E, #AEB6BF);
-    box-shadow: 0 8px 25px rgba(133, 146, 158, 0.4);
+    background: linear-gradient(135deg, #5D3A20, #6B4226);
+    box-shadow: 0 8px 25px rgba(93, 58, 32, 0.4);
 }
 
 .card-btn i {
@@ -3765,7 +3722,7 @@ img.landing-img {
 .stat-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #2C3E50, #5D6D7E);
+    background: linear-gradient(135deg, #2C1810, #4A2C1A);
     border-radius: 16px;
     display: flex;
     align-items: center;
@@ -3787,9 +3744,9 @@ img.landing-img {
 .stat-number {
     font-size: 2.5rem;
     font-weight: 800;
-    color: #85929E;
+    color: #D4A574;
     margin-bottom: 8px;
-    background: linear-gradient(135deg, #85929E, #AEB6BF);
+    background: linear-gradient(135deg, #D4A574, #E6B87A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -3807,7 +3764,7 @@ img.landing-img {
 
 .stat-suffix {
     font-size: 1.5rem;
-    color: #85929E;
+    color: #D4A574;
     font-weight: 700;
     display: inline-block;
     margin-left: 2px;
