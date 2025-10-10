@@ -4490,6 +4490,7 @@ img.landing-img {
         display: flex;
         justify-content: center;
         align-items: center;
+        bottom: 170px;
     }
 
     .subscribe-text-section {
