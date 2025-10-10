@@ -25,7 +25,7 @@ body {
 	min-height: 100vh;
 	width: 100%;
 	overflow-x: hidden;
-	background-image: url('../img/products/home-products/home-11.jpg');
+	background-image: url('../img/products/home-products/home-18.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -4688,7 +4688,7 @@ img.landing-img {
         width: 100%;
         justify-content: center;
         font-size: 1rem;
-        border-radius: 12px;
+        border-radius: 50px;
         background: #2C1810;
         color: #ffffff;
         border: none;
