@@ -3390,6 +3390,13 @@ img.landing-img {
     height: 90%;
     object-fit: contain;
     display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.25));
 }
 
 .promo-card::after{
@@ -3400,7 +3407,7 @@ img.landing-img {
 
 .promo-card:hover{
     transform: translateY(-6px);
-    box-shadow: 0 18px 50px rgba(0,0,0,.20);
+    box-shadow: 0 18px 50px rgba(0,0,0,.10);
 }
 
 .promo-content{
@@ -3882,17 +3889,16 @@ img.landing-img {
     }
 
     .promo-grid{ 
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(6, 1fr); 
-        gap: 15px; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
         margin: 40px 15px;
-        aspect-ratio: auto;
+        padding: 0;
     }
     .promo-1,.promo-2,.promo-3,.promo-4,.promo-5,.promo-6{ 
-        grid-column: 1 / 2; 
-        grid-row: auto; 
         width: 100%;
         height: 300px;
+        margin: 0;
     }
 
     .feature-card {
@@ -3945,17 +3951,16 @@ img.landing-img {
     }
 
     .promo-grid{ 
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(6, 1fr); 
-        gap: 12px; 
+        display: flex;
+        flex-direction: column;
+        gap: 18px; 
         margin: 35px 12px;
-        aspect-ratio: auto;
+        padding: 0;
     }
     .promo-1,.promo-2,.promo-3,.promo-4,.promo-5,.promo-6{ 
-        grid-column: 1 / 2; 
-        grid-row: auto; 
         width: 100%;
         height: 250px;
+        margin: 0;
     }
 
     .feature-card {
@@ -4048,18 +4053,17 @@ img.landing-img {
     }
 
     .promo-grid{ 
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(6, 1fr); 
-        gap: 10px; 
+        display: flex;
+        flex-direction: column;
+        gap: 15px; 
         margin: 30px 10px;
-        aspect-ratio: auto;
+        padding: 0;
     }
     .promo-title{ font-size: 1.4rem; }
     .promo-1,.promo-2,.promo-3,.promo-4,.promo-5,.promo-6{ 
-        grid-column: 1 / 2; 
-        grid-row: auto; 
         width: 100%;
         height: 220px;
+        margin: 0;
     }
 
     .feature-card {
@@ -4325,6 +4329,7 @@ img.landing-img {
     display: block;
     margin: 0 auto;
 }
+
 
 .image-container:hover .subscribe-image {
     transform: scale(1.05);
