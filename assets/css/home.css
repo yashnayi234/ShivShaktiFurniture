@@ -3301,9 +3301,9 @@ img.landing-img {
     gap: 10px;
     background: transparent;
     color: #8B7355;
-    padding: 12px 24px;
+    padding: 0px 20px;
     border-radius: 50px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -4191,6 +4191,7 @@ img.landing-img {
     gap: 40px;
     align-items: center;
     background: #fcf5eb;
+    /* background: rgba(44, 24, 16, 0.25); */
     border-radius: 24px;
     padding: 50px 50px;
     margin: 160px 5%;
@@ -5328,5 +5329,291 @@ img.landing-img {
     .service-icon-container i {
         font-size: 1.1rem;
         line-height: 44px;
+    }
+}
+
+/* ========================================
+   FEEDBACK SECTION STYLES
+======================================== */
+
+.product-feedback-famili{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fcf5eb;
+    border-radius: 24px;
+    padding: 50px 50px;
+    margin: 80px 0;
+}
+
+/* Feedback Header */
+.feedback-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feedback-subtitle{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    color: #8B7355;
+    padding: 0px 24px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.feedback-title{
+    font-size: 3.5rem;
+    color: #2C1810;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+    font-family: 'Montserrat', 'Noto Sans', 'Encode Sans Expanded', 'Sansation', sans-serif;
+    line-height: 1.1;
+}
+
+.feedback-description{
+    font-size: 1.3rem;
+    color: #6c757d;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+/* Feedback Cards Container */
+.feedback-cards-container{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.feedback-cards{
+    display: flex;
+    gap: 30px;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+    padding: 0 20px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% - 30px));
+    }
+}
+
+.feedback-cards:hover {
+    animation-play-state: paused;
+}
+
+/* Individual Feedback Cards */
+.feedback-card{
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    height: 100%;
+    width: 400px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.feedback-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Card Background Colors */
+.card-1{
+    background: #f8f9fa;
+}
+
+.card-2{
+    background: #f5f1e8;
+}
+
+.card-3{
+    background: #f8f9fa;
+}
+
+.card-4{
+    background: #f5f1e8;
+}
+
+.card-5{
+    background: #f8f9fa;
+}
+
+.card-6{
+    background: #f5f1e8;
+}
+
+/* Quote Icon */
+.quote-icon{
+    margin-bottom: 15px;
+}
+
+.quote-icon svg{
+    width: 32px;
+    height: 32px;
+}
+
+/* Feedback Text */
+.feedback-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    line-height: 1.7;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* User Profile Section */
+.feedback-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e9ecef;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    color: #2C1810;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+
+.user-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+/* Rating Badge */
+.rating-badge{
+    background: #ffffff;
+    border: 1px solid #8B4513;
+    border-radius: 16px;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.star{
+    color: #ffd700;
+    font-size: 0.85rem;
+}
+
+.rating{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: #2C1810;
+    font-weight: 600;
+}
+
+/* Responsive Design for Feedback Section */
+@media (max-width: 768px) {
+    .product-feedback-famili{
+        padding: 40px 20px;
+        margin: 60px 0;
+    }
+    
+    .feedback-subtitle {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+        margin-bottom: 25px;
+    }
+    
+    .feedback-title{
+        font-size: 3.5rem;
+    }
+    
+    .feedback-description {
+        font-size: 1.2rem;
+    }
+    
+    .feedback-cards{
+        gap: 20px;
+        animation-duration: 25s;
+    }
+    
+    .feedback-card{
+        width: 350px;
+        min-width: 350px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-feedback-famili{
+        padding: 30px 15px;
+        margin: 40px 0;
+    }
+    
+    .feedback-subtitle {
+        padding: 8px 16px;
+        font-size: 0.75rem;
+        margin-bottom: 20px;
+    }
+    
+    .feedback-title{
+        font-size: 2.5rem;
+    }
+    
+    .feedback-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .feedback-cards{
+        gap: 15px;
+        animation-duration: 20s;
+    }
+    
+    .feedback-card{
+        width: 300px;
+        min-width: 300px;
+        padding: 15px;
+    }
+    
+    .feedback-text{
+        font-size: 0.9rem;
     }
 }
