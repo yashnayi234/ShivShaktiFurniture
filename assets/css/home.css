@@ -5554,27 +5554,31 @@ img.landing-img {
     margin: 0;
 }
 
-/* Rating Badge */
+/* Rating Badge - Desktop */
 .rating-badge{
     background: #2C1810;
     border: 3px solid rgba(255, 255, 255, 0.5);
     border-radius: 30px;
-    padding: 6px 10px;
+    padding: 8px 14px;
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
+    min-width: 60px;
+    justify-content: center;
 }
 
 .star{
     color: #ffd700;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    line-height: 1;
 }
 
 .rating{
     font-family: 'Inter', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: #ffffff;
     font-weight: 600;
+    line-height: 1;
 }
 
 /* Responsive Design for Feedback Section */
@@ -5612,6 +5616,43 @@ img.landing-img {
     .feedback-cards-container::before,
     .feedback-cards-container::after {
         width: 60px;
+    }
+    
+    /* Rating Badge - Tablet */
+    .rating-badge{
+        padding: 6px 12px;
+        border-radius: 25px;
+        border-width: 2px;
+        min-width: 55px;
+        gap: 3px;
+    }
+    
+    .star{
+        font-size: 0.8rem;
+    }
+    
+    .rating{
+        font-size: 0.8rem;
+    }
+}
+
+/* Medium Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+    /* Rating Badge - Medium Tablet */
+    .rating-badge{
+        padding: 7px 13px;
+        border-radius: 28px;
+        border-width: 2.5px;
+        min-width: 58px;
+        gap: 3.5px;
+    }
+    
+    .star{
+        font-size: 0.85rem;
+    }
+    
+    .rating{
+        font-size: 0.85rem;
     }
 }
 
@@ -5654,5 +5695,22 @@ img.landing-img {
     .feedback-cards-container::before,
     .feedback-cards-container::after {
         width: 40px;
+    }
+    
+    /* Rating Badge - Mobile */
+    .rating-badge{
+        padding: 5px 10px;
+        border-radius: 20px;
+        border-width: 2px;
+        min-width: 50px;
+        gap: 2px;
+    }
+    
+    .star{
+        font-size: 0.75rem;
+    }
+    
+    .rating{
+        font-size: 0.75rem;
     }
 }
