@@ -5340,10 +5340,10 @@ img.landing-img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #edebe9;
+    /* background: #edebe9; */
     border-radius: 24px;
     padding: 50px 50px;
-    margin: 80px 0;
+    margin: 100px 50px;
 }
 
 /* Feedback Header */
@@ -5391,6 +5391,27 @@ img.landing-img {
     position: relative;
 }
 
+.feedback-cards-container::before,
+.feedback-cards-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.feedback-cards-container::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.feedback-cards-container::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+}
+
 .feedback-cards{
     display: flex;
     gap: 30px;
@@ -5417,7 +5438,7 @@ img.landing-img {
     background: #ffffff;
     border-radius: 16px;
     padding: 25px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     height: 100%;
@@ -5428,10 +5449,10 @@ img.landing-img {
     flex-shrink: 0;
 }
 
-.feedback-card:hover{
-    transform: translateY(-5px);
+/* .feedback-card:hover{
+    transform: translateY(px); 
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Card Background Colors */
 .card-1{
@@ -5471,7 +5492,7 @@ img.landing-img {
 /* Feedback Text */
 .feedback-text{
     font-family: 'Inter', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #4a4a4a;
     line-height: 1.7;
     margin: 0 0 20px 0;
@@ -5579,6 +5600,11 @@ img.landing-img {
         min-width: 350px;
         padding: 20px;
     }
+    
+    .feedback-cards-container::before,
+    .feedback-cards-container::after {
+        width: 60px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -5615,5 +5641,10 @@ img.landing-img {
     
     .feedback-text{
         font-size: 0.9rem;
+    }
+    
+    .feedback-cards-container::before,
+    .feedback-cards-container::after {
+        width: 40px;
     }
 }
