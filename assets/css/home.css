@@ -5395,7 +5395,7 @@ img.landing-img {
     display: flex;
     gap: 30px;
     width: max-content;
-    animation: scroll 30s linear infinite;
+    animation: scroll 60s linear infinite;
     padding: 0 20px;
 }
 
