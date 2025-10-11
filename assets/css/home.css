@@ -1560,6 +1560,7 @@ body::-webkit-scrollbar-thumb {
         padding: 0 30px;
     }
     
+    
     .new-arrivals-info {
         padding-right: 0;
     }
@@ -1578,6 +1579,7 @@ body::-webkit-scrollbar-thumb {
         gap: 30px;
         padding: 0 20px;
     }
+    
     
     .new-arrivals-title {
         font-size: 2.5rem;
@@ -5074,11 +5076,11 @@ img.landing-img {
 }
 
 .service-section {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 32px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
     padding: 48px 32px;
     display: flex;
     flex-direction: column;
@@ -5088,7 +5090,7 @@ img.landing-img {
 /* Tablet (480–768px) */
 @media (min-width: 480px) and (max-width: 768px){
     .service-section {
-        width: 90%;
+        width: 95%;
         padding: 30px 20px;
     }
     .service-description {
@@ -5100,7 +5102,7 @@ img.landing-img {
 /* Mobile (<=480px) */
 @media (max-width: 480px) {
     .service-section {
-        width: 90%;
+        width: 95%;
         padding: 25px 15px;
     }
     .service-description {
@@ -5111,20 +5113,24 @@ img.landing-img {
 
 .service-features {
     display: flex;
-    gap: 20px;
+    gap: 0;
     width: 100%;
     max-width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .service-feature {
     text-align: center;
-    padding: 15px;
+    padding: 20px 15px;
     flex: 1;
-    min-width: 200px;
-    max-width: 250px;
+    min-width: 220px;
+    max-width: none;
+    margin: 0px 10px;
+    background: rgba(223, 223, 223, 0.5);
+    position: relative;
 }
+
 
 .service-icon-container {
     background: #f5f5f5;
@@ -5146,12 +5152,12 @@ img.landing-img {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 6px;
-    color: #ffffff;
+    color: #2C1810;
 }
 
 .service-feature p {
     font-size: 0.98rem;
-    color: #ffffff;
+    color: #666666;
 }
 
 
@@ -5267,12 +5273,15 @@ img.landing-img {
 /* Responsive design for service features */
 @media (max-width: 1024px) {
     .service-features {
-        gap: 15px;
+        gap: 0;
+        justify-content: space-evenly;
     }
     
     .service-feature {
-        min-width: 180px;
-        padding: 12px;
+        min-width: 200px;
+        padding: 15px;
+        margin: 0px 10px;
+        background: rgba(223, 223, 223, 0.5);
     }
 }
 
@@ -5290,6 +5299,12 @@ img.landing-img {
         min-width: auto;
         max-width: none;
         padding: 15px;
+        margin: 0px 10px;
+        background: rgba(223, 223, 223, 0.5);
+    }
+    
+    .service-feature:not(:last-child)::after {
+        display: none;
     }
     
     .service-divider {
