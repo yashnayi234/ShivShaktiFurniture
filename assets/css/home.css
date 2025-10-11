@@ -5416,8 +5416,9 @@ img.landing-img {
     display: flex;
     gap: 30px;
     width: max-content;
-    animation: scroll 60s linear infinite;
+    animation: scroll 80s linear infinite;
     padding: 0 20px;
+    will-change: transform;
 }
 
 @keyframes scroll {
@@ -5431,6 +5432,11 @@ img.landing-img {
 
 .feedback-cards:hover {
     animation-play-state: paused;
+    transition: animation-play-state 0.3s ease;
+}
+
+.feedback-cards-container:hover .feedback-cards {
+    animation-play-state: paused;
 }
 
 /* Individual Feedback Cards */
@@ -5439,7 +5445,7 @@ img.landing-img {
     border-radius: 16px;
     padding: 25px;
     /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     height: 100%;
     width: 400px;
@@ -5447,6 +5453,8 @@ img.landing-img {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 
 /* .feedback-card:hover{
@@ -5485,8 +5493,8 @@ img.landing-img {
 }
 
 .quote-icon svg{
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 
 /* Feedback Text */
@@ -5548,9 +5556,9 @@ img.landing-img {
 
 /* Rating Badge */
 .rating-badge{
-    background: #ffffff;
-    border: 1px solid #8B4513;
-    border-radius: 16px;
+    background: #2C1810;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
     padding: 6px 10px;
     display: flex;
     align-items: center;
@@ -5565,7 +5573,7 @@ img.landing-img {
 .rating{
     font-family: 'Inter', sans-serif;
     font-size: 0.85rem;
-    color: #2C1810;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -5592,7 +5600,7 @@ img.landing-img {
     
     .feedback-cards{
         gap: 20px;
-        animation-duration: 60s;
+        animation-duration: 100s;
     }
     
     .feedback-card{
@@ -5630,7 +5638,7 @@ img.landing-img {
     
     .feedback-cards{
         gap: 15px;
-        animation-duration: 60s;
+        animation-duration: 80s;
     }
     
     .feedback-card{
